@@ -2,6 +2,7 @@
 # Description: Main tick function
 ############################################################
 
+# Creeper was here
 # Right click detection
 execute as @s[scores={MB.coas=1..}] run function mb:item/technical/right_click_detect
 
