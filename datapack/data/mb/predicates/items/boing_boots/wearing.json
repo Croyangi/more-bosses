@@ -7,7 +7,7 @@
         "items": [
           "minecraft:leather_boots"
         ],
-        "nbt": "{CustomModelData:100002}"
+        "nbt": "{mb:{id:\"boing_boots\"}}"
       }
     }
   }

@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{display:{color:5635925},HideFlags:126,Unbreakable:1b,CustomModelData:100000}"
+              "tag": "{display:{color:5635925},HideFlags:126,Unbreakable:1b,CustomModelData:100000,mb:{id:\"boing_boots\"}}"
             },
             {
               "function": "set_name",
