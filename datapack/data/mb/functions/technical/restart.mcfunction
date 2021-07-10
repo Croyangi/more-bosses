@@ -11,7 +11,6 @@ function mb:item/slimey_spring/tick_loop
 function mb:item/soul_leech/second_loop
 function mb:item/soul_leech/tick_loop
 function mb:item/etherealm/loop
-function mb:item/boing_boots/loop
 function mb:item/venom_quiver/loop
 function mb:item/flower_on_a_stick/loop
 function mb:item/spirit_blade/loop
