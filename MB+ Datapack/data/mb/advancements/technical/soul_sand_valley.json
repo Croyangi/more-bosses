@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:soul_sand_valley",
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,357 @@
+{
+      "item.potion_of_soulbounding.drink": {
+    "sounds": [
+      "mob/guardian/elder_death"
+    ],
+    "subtitle": "Unbinds soul"
+
+    },
+      "item.potion_of_soulbounding.teleport": {
+    "sounds": [
+      "mob/endermen/portal",
+      "mob/endermen/portal2"
+    ],
+    "subtitle": "Rebinds soul"
+
+    },
+      "item.pollinator.used": {
+    "sounds": [
+      "block/enchantment_table/enchant1",
+      "block/enchantment_table/enchant2",
+      "block/enchantment_table/enchant3"
+    ],
+    "subtitle": "Uses Pollinator"
+
+    },
+      "item.royal_jello.used": {
+    "sounds": [
+      "mob/slime/big1",
+      "mob/slime/big2",
+      "mob/slime/big3",
+      "mob/slime/big4"
+    ],
+    "subtitle": "Uses Royal Jello"
+
+    },
+      "item.slimey_spring.used": {
+    "sounds": [{
+      "name": "item/trident/riptide1",
+      "pitch": 1.3
+    },
+    {
+      "name": "item/trident/riptide2",
+      "pitch": 1.3
+    },
+    {
+      "name": "item/trident/riptide3",
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Uses Slimey Spring"
+
+    },
+      "item.soul_leech.used": {
+    "sounds": [
+      "mob/guardian/guardian_death"
+    ],
+    "subtitle": "Uses Soul Leech"
+
+    },
+      "item.etherealm.used": {
+    "sounds": [{
+      "name": "mob/wither/spawn",
+      "volume": 0.5,
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Uses Etherealm"
+
+    },
+      "item.boing_boots.used": {
+    "sounds": [
+      "mob/slime/big1",
+      "mob/slime/big2",
+      "mob/slime/big3",
+      "mob/slime/big4"
+    ],
+    "subtitle": "Boing Boots boing"
+
+    },
+      "item.flower_on_a_stick.used": {
+    "sounds": [
+      "block/honeyblock/break1",
+      "block/honeyblock/break2",
+      "block/honeyblock/break3",
+      "block/honeyblock/break4",
+      "block/honeyblock/break5"
+    ],
+    "subtitle": "Uses Flower on a Stick"
+    },
+      "item.flower_on_a_stick.despawn": {
+    "sounds": [
+      "block/honeyblock/break1",
+      "block/honeyblock/break2",
+      "block/honeyblock/break3",
+      "block/honeyblock/break4",
+      "block/honeyblock/break5"
+    ],
+    "subtitle": "Bee Mount despawns"
+
+    },
+      "item.hive_rattle.used": {
+    "sounds": [
+      "block/beehive/enter"
+    ],
+    "subtitle": "Uses Hive Rattle"
+
+    },
+      "item.spirit_blade.ignite": {
+    "sounds": [{
+      "name": "mob/ghast/fireball1",
+      "pitch": 1.3
+    },
+    {
+      "name": "mob/ghast/fireball2",
+      "pitch": 1.3
+    },
+    {
+      "name": "mob/ghast/fireball3",
+      "pitch": 1.3
+    },
+    {
+      "name": "mob/ghast/fireball4",
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Spirit Blade ignites"
+    },
+      "item.spirit_blade.extinguish": {
+    "sounds": [{
+      "name": "random/fizz",
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Spirit Blade extinguishes"
+
+    },
+      "item.wisp_in_a_lantern.used": {
+    "sounds": [
+      "block/lantern/place1",
+      "block/lantern/place2",
+      "block/lantern/place3",
+      "block/lantern/place4",
+      "block/lantern/place5",
+      "block/lantern/place6"
+    ],
+    "subtitle": "Uses Wisp in a Lantern"
+
+    },
+      "item.blink.teleport": {
+    "sounds": [
+      "mob/endermen/portal",
+      "mob/endermen/portal2"
+    ],
+    "subtitle": "Player blinks"
+
+    },
+      "item.staff_of_smiting.used": {
+    "sounds": [{
+      "name": "item/trident/thunder1",
+      "pitch": 1.3
+    },
+    {
+      "name": "item/trident/thunder2",
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Used Staff of Smiting"
+
+    },
+      "item.voodoo_doll.used": {
+    "sounds": [{
+      "name": "block/lodestone/lock1",
+      "pitch": 1.3
+    },
+    {
+      "name": "block/lodestone/lock2",
+      "pitch": 1.3
+    }
+    ],
+    "subtitle": "Uses Voodoo Doll"
+
+    },
+      "item.emergency_meeting.used": {
+    "sounds": [
+      "mb:item/impostor/emergency_meeting"
+    ],
+    "subtitle": "Used Emergency Meeting"
+
+    },
+      "item.amogus.used": {
+    "sounds": [
+      "mb:item/impostor/amogus"
+    ],
+    "subtitle": "Used Amogus"
+
+    },
+      "entity.boss.spawns": {
+    "sounds": [
+      "mob/enderdragon/growl1",
+      "mob/enderdragon/growl2",
+      "mob/enderdragon/growl3",
+      "mob/enderdragon/growl4"
+    ],
+    "subtitle": "Boss spawns"
+    
+    },
+      "entity.boss.dies": {
+    "sounds": [
+      "mob/enderdragon/growl1",
+      "mob/enderdragon/growl2",
+      "mob/enderdragon/growl3",
+      "mob/enderdragon/growl4"
+    ],
+    "subtitle": "Boss dies"
+
+    },
+      "entity.boss.fail": {
+    "sounds": [
+      "mob/enderdragon/growl1",
+      "mob/enderdragon/growl2",
+      "mob/enderdragon/growl3",
+      "mob/enderdragon/growl4"
+    ],
+    "subtitle": "Player fails bossfight"
+
+
+
+    },
+      "entity.king_slime.death": {
+    "sounds": [
+      "mob/slime/big1",
+      "mob/slime/big2",
+      "mob/slime/big3",
+      "mob/slime/big4"
+    ],
+    "subtitle": "King Slime dies"
+
+
+
+    },
+      "entity.queen_bee.hurt": {
+    "sounds": [
+      "mob/bee/hurt1",
+      "mob/bee/hurt2",
+      "mob/bee/hurt3"
+    ],
+    "subtitle": "Queen Bee hurts"
+
+    },
+      "entity.queen_bee.death": {
+    "sounds": [
+      "mob/bee/death1",
+      "mob/bee/death2"
+    ],
+    "subtitle": "Queen Bee dies"
+
+    },
+      "entity.bee_drone.death": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "Bee Drone explodes"
+
+    },
+      "entity.stinger.explode": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "Stinger explodes"
+
+
+
+    },
+      "entity.restless_soul.hurt": {
+    "sounds": [
+      "mob/wither_skeleton/hurt1",
+      "mob/wither_skeleton/hurt2",
+      "mob/wither_skeleton/hurt3",
+      "mob/wither_skeleton/hurt4"
+    ],
+    "subtitle": "Restless Soul hurts"
+
+    },
+      "entity.restless_soul.cast": {
+    "sounds": [
+      "mob/wither_skeleton/step1",
+      "mob/wither_skeleton/step2",
+      "mob/wither_skeleton/step3",
+      "mob/wither_skeleton/step4"
+    ],
+    "subtitle": "Restless Soul casts spell"
+
+    },
+      "entity.restless_soul.death": {
+    "sounds": [
+      "ambient/nether/soulsand_valley/voices1",
+      "ambient/nether/soulsand_valley/voices2",
+      "ambient/nether/soulsand_valley/voices3",
+      "ambient/nether/soulsand_valley/voices4",
+      "ambient/nether/soulsand_valley/voices5"
+    ],
+    "subtitle": "Restless Soul dies"
+
+    },
+      "block.place.bone_barricade": {
+    "sounds": [
+      "block/bone_block/break1",
+      "block/bone_block/break2",
+      "block/bone_block/break3",
+      "block/bone_block/break4"
+    ],
+    "subtitle": "Bone Barricade places"
+
+    },
+      "entity.soul_storm.spawn": {
+    "sounds": [
+      "mob/guardian/guardian_death"
+    ],
+    "subtitle": "Soul Storm spawns"
+
+    },
+      "entity.soul_dragon.spawn": {
+    "sounds": [
+      "mob/guardian/elder_death"
+    ],
+    "subtitle": "Soul Dragon spawns"
+
+
+
+    },
+      "music.secret": {
+    "sounds": [
+      "mb:secret"
+    ],
+    "subtitle": "Player gets rolled lmao gottem"
+
+    },
+      "entity.impostor.summon": {
+    "sounds": [
+      "mb:mob/impostor/summon"
+    ],
+    "subtitle": "When the impostor is sus!"
+
+    },
+      "entity.impostor.summon_crewmate": {
+    "sounds": [
+      "mb:mob/impostor/summon_crewmate"
+    ],
+    "subtitle": "Impostor summons Crewmate"
+  }
+}

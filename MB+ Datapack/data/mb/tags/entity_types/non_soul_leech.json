@@ -1,0 +1,13 @@
+{
+    "values":[
+        "player",
+        "minecraft:horse",
+        "minecraft:cat",
+        "minecraft:wolf",
+        "minecraft:item",
+        "armor_stand",
+        "arrow",
+        "area_effect_cloud",
+        "item_frame"
+    ]
+}

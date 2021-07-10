@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.removed_herobrine.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.removed_herobrine.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:400000}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 315
+    },
+    "parent": "mb:minecraft/highly_flammable"
+}

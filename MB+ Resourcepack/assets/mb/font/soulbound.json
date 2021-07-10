@@ -1,0 +1,12 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:gui/fonts/soulbound.png",
+      "ascent": 15,
+      "height": 20,
+      "chars": [
+        "\uc001"
+      ]
+    }
+  ]
+}

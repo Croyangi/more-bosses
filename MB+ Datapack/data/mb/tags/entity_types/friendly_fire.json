@@ -1,0 +1,10 @@
+{
+    "values":[
+        "minecraft:player",
+        "minecraft:horse",
+        "minecraft:cat",
+        "minecraft:wolf",
+        "minecraft:item",
+        "armor_stand"
+    ]
+}

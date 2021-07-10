@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:leather_boots"
+              ],
+              "nbt": "{CustomModelData:100002}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mb:item/boing_boots/start"
+    }
+  }

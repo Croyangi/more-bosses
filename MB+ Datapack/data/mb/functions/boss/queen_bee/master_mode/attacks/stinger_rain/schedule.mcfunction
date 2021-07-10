@@ -1,0 +1,30 @@
+############################################################
+# Description: Schedules Stinger Rain attack
+############################################################
+
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+execute at @e[type=bee,tag=mb.queen_bee.AI] run summon armor_stand ~ ~ ~ {Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["mb.stinger_rain.marker","mb.queen_bee.cleanup"],DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:diamond_hoe",Count:1b,tag:{CustomModelData:300003}}]}
+
+schedule function mb:boss/queen_bee/master_mode/attacks/stinger_rain/spread_markers 1t append
+schedule function mb:boss/queen_bee/master_mode/attacks/stinger_rain/tick 1s append
+schedule function mb:boss/queen_bee/master_mode/attacks/stinger_rain/clear_remaining 5s append
+
+schedule function mb:boss/queen_bee/master_mode/attacks/stinger_rain/schedule 10s append

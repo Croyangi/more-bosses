@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.myth_buster.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.myth_buster.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:400001}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 315
+    },
+    "parent": "mb:minecraft/highly_flammable"
+}

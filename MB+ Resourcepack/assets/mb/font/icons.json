@@ -1,0 +1,21 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:item/advancements/cro_icon.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ue001"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/advancements/jely_icon.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [
+        "\ue002"
+      ]
+    }
+  ]
+}

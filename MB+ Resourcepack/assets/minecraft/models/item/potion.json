@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/potion_overlay",
+    "layer1": "item/potion"
+  },
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/restless_soul/soulbound_potion"
+    }
+  ]
+}

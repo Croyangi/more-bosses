@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:300003}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "item.mb.pollinator",
+                  "color": "yellow",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "item.mb.tag.weapon",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "translate": "item.mb.pollinator.lore",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": "pack.mb",
+                  "color": "dark_purple",
+                  "italic": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

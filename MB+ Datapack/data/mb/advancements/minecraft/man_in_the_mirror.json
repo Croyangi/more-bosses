@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.man_in_the_mirror.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.man_in_the_mirror.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:200003}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mb:minecraft/root"
+}

@@ -1,0 +1,198 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/diamond_hoe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100000
+      },
+      "model": "mb:item/king_slime/model/crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100001
+      },
+      "model": "mb:item/king_slime/model/crown_cracked"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/restless_soul/model/archer_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200001
+      },
+      "model": "mb:item/restless_soul/model/berserker_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200002
+      },
+      "model": "mb:item/restless_soul/model/leader_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200003
+      },
+      "model": "mb:item/restless_soul/model/soul_storm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200004
+      },
+      "model": "mb:item/restless_soul/model/soul_ring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200005
+      },
+      "model": "mb:item/restless_soul/model/soul_dragon/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200006
+      },
+      "model": "mb:item/restless_soul/model/soul_dragon/body"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200007
+      },
+      "model": "mb:item/restless_soul/model/soul_dragon/tail"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200008
+      },
+      "model": "mb:item/restless_soul/model/bone_barricade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200100
+      },
+      "model": "mb:item/soulbound/marker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200201
+      },
+      "model": "mb:item/restless_soul/wisp_in_a_lantern/wispy"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 300000
+      },
+      "model": "mb:item/queen_bee/model/homing_stinger"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300001
+      },
+      "model": "mb:item/queen_bee/model/bee_drone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300002
+      },
+      "model": "mb:item/queen_bee/model/stinger_rain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300003
+      },
+      "model": "mb:item/queen_bee/model/stinger_rain_marker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300004
+      },
+      "model": "mb:item/queen_bee/hive_rattle/bruce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300100
+      },
+      "model": "mb:item/queen_bee/bee_mount/bee_mount"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300101
+      },
+      "model": "mb:item/queen_bee/bee_mount/cool_bee_mount"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "mb:item/herobrine/model/smite_marker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "mb:item/herobrine/model/spike"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "mb:item/herobrine/model/eyes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "mb:item/herobrine/model/spike_small"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "mb:item/herobrine/model/spike_big"
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500000
+      },
+      "model": "mb:item/impostor/model/crewmate/green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500001
+      },
+      "model": "mb:item/impostor/model/crewmate/orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500002
+      },
+      "model": "mb:item/impostor/model/crewmate/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500100
+      },
+      "model": "mb:item/impostor/amogus/non-drip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500101
+      },
+      "model": "mb:item/impostor/amogus/drip"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "mb:boss/king_slime/normal_mode/2nd_phase"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.flight_of_the_bumblebee.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.flight_of_the_bumblebee.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe",
+            "nbt": "{CustomModelData:300100}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mb:minecraft/sting_operation"
+}

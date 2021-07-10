@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.de-throned.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.de-throned.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:100001}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 315
+    },
+    "parent": "mb:minecraft/fit_for_a_king"
+}

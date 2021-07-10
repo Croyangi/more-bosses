@@ -1,0 +1,12 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:gui/fonts/white_overlay.png",
+      "ascent": 100,
+      "height": 256,
+      "chars": [
+        "\ua001"
+      ]
+    }
+  ]
+}

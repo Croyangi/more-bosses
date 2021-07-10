@@ -1,0 +1,66 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/gear.png",
+      "ascent": 9,
+      "height": 11,
+      "chars": [
+        "\ud001"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/normal_mode.png",
+      "ascent": 11,
+      "height": 14,
+      "chars": [
+        "\ud002"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/master_mode.png",
+      "ascent": 11,
+      "height": 14,
+      "chars": [
+        "\ud003"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/discord.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": [
+        "\ud004"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/uninstall.png",
+      "ascent": 9,
+      "height": 10,
+      "chars": [
+        "\ud005"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/speedrun_timer_on.png",
+      "ascent": 10,
+      "height": 14,
+      "chars": [
+        "\ud006"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:gui/fonts/settings/speedrun_timer_off.png",
+      "ascent": 10,
+      "height": 14,
+      "chars": [
+        "\ud007"
+      ]
+    }
+  ]
+}

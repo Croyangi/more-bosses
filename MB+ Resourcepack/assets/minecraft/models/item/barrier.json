@@ -1,0 +1,149 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/barrier"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mb:item/advancements/root"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 10000
+      },
+      "model": "mb:item/advancements/boss_rushed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10001
+      },
+      "model": "mb:item/advancements/coup_detat"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 100000
+      },
+      "model": "mb:item/advancements/royal_overthrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100001
+      },
+      "model": "mb:item/advancements/de-throned"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100002
+      },
+      "model": "mb:item/advancements/flawless_king_slime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100003
+      },
+      "model": "mb:item/advancements/fit_for_a_king"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/advancements/free_the_souls"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200001
+      },
+      "model": "mb:item/advancements/etherealness"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200002
+      },
+      "model": "mb:item/advancements/flawless_restless_soul"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200003
+      },
+      "model": "mb:item/advancements/man_in_the_mirror"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200004
+      },
+      "model": "mb:item/advancements/what_did_i_tell_you"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200005
+      },
+      "model": "mb:item/advancements/home_turf"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 300000
+      },
+      "model": "mb:item/advancements/sting_operation"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300001
+      },
+      "model": "mb:item/advancements/buzzkill"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300002
+      },
+      "model": "mb:item/advancements/flawless_queen_bee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300003
+      },
+      "model": "mb:item/advancements/they_grow_up_so_fast"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "mb:item/advancements/herobrine_removed"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "mb:item/advancements/myth_busted"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "mb:item/advancements/flawless_herobrine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "mb:item/advancements/in_the_headlights"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mb:item/advancements/free_the_souls"
+    }
+}

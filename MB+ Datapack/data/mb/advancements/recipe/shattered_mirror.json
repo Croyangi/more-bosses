@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "royalCrownUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mb:shattered_mirror"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mb:recipes/shattered_mirror"
+    }
+}

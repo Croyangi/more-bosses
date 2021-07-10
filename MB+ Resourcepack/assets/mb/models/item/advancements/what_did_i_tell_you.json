@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "mb:item/advancements/what_did_i_tell_you"
+    }
+}

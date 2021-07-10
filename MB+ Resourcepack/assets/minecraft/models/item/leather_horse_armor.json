@@ -1,0 +1,83 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/restless_soul/model/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200001
+      },
+      "model": "mb:item/restless_soul/model/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200002
+      },
+      "model": "mb:item/restless_soul/model/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200003
+      },
+      "model": "mb:item/restless_soul/model/necromance"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 300000
+      },
+      "model": "mb:item/queen_bee/model/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300001
+      },
+      "model": "mb:item/queen_bee/model/idle_angry"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "mb:item/herobrine/model/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "mb:item/herobrine/model/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "mb:item/herobrine/model/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "mb:item/herobrine/model/hands_raised"
+
+
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500000
+      },
+      "model": "mb:item/impostor/model/impostor"
+
+    }
+  ]
+}

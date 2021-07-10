@@ -1,0 +1,20 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/iron_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/restless_soul/spirit_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500000
+      },
+      "model": "mb:item/impostor/knife"
+    }
+  ]
+}

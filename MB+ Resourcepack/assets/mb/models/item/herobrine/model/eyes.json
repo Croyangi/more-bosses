@@ -1,0 +1,29 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "mb:item/herobrine/model/eyes",
+		"particle": "mb:item/herobrine/model/eyes"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 12, 4],
+			"to": [12, 20, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 2, 4], "texture": "#0"},
+				"east": {"uv": [6, 2, 4, 4], "texture": "#0"},
+				"south": {"uv": [8, 2, 6, 4], "texture": "#0"},
+				"west": {"uv": [2, 2, 0, 4], "texture": "#0"},
+				"up": {"uv": [4, 0, 2, 2], "texture": "#0"},
+				"down": {"uv": [6, 2, 4, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"translation": [0, -12.8, -0.25],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}

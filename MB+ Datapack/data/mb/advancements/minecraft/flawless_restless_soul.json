@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.flawless_restless_soul.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.flawless_restless_soul.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:200002}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 315
+    },
+    "parent": "mb:minecraft/flawless_queen_bee"
+}

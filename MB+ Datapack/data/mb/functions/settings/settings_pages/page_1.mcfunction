@@ -1,0 +1,26 @@
+############################################################
+# Description: Page 1 of settings
+############################################################
+
+tellraw @a [{"translate":"pack.mb","color":"dark_purple","bold":true,"italic":true},{"text":" "},{"translate":"chat.mb.settings.gamerules","color":"dark_purple","bold":true,"italic":true},{"text":" 퀁","font":"mb:settings","color":"white","bold":false,"italic":false}]
+tellraw @a [{"text":""}]
+execute as @a[scores={MB.difficulty=0}] run tellraw @s [{"translate":"chat.mb.settings.difficulty","color":"dark_purple","italic":false},{"text":" "},{"translate":"chat.mb.settings.difficulty.normal","color":"green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"A normal More Bosses+ playthrough!"}]},"clickEvent":{"action":"run_command","value":"/trigger MB.settings set 101"}},{"text":"\ud002","font":"mb:settings","color":"white"}]
+execute as @a[scores={MB.difficulty=1}] run tellraw @s [{"translate":"chat.mb.settings.difficulty","color":"dark_purple","italic":false},{"text":" "},{"translate":"chat.mb.settings.difficulty.master","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"For the bravest of players!"}]},"clickEvent":{"action":"run_command","value":"/trigger MB.settings set 100"}},{"text":"\ud003","font":"mb:settings","color":"white"}]
+tellraw @a [{"text":""}]
+execute as @a[scores={mb.speedrunTimer=0}] run tellraw @s [{"translate":"chat.mb.settings.speedrun_timer","color":"dark_purple","italic":false},{"text":" "},{"translate":"chat.mb.settings.speedrun_timer.off","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Shows your time when defeating a boss"}]},"clickEvent":{"action":"run_command","value":"/trigger MB.settings set 200"}},{"text":" \ud007","font":"mb:settings","color":"white","bold":false,"italic":false}]
+execute as @a[scores={mb.speedrunTimer=1}] run tellraw @s [{"translate":"chat.mb.settings.speedrun_timer","color":"dark_purple","italic":false},{"text":" "},{"translate":"chat.mb.settings.speedrun_timer.on","color":"green","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Shows your time when defeating a boss"}]},"clickEvent":{"action":"run_command","value":"/trigger MB.settings set 201"}},{"text":" \ud006","font":"mb:settings","color":"white","bold":false,"italic":false}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":""}]

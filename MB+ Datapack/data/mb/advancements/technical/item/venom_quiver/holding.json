@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot_on_a_stick"
+              ],
+              "nbt": "{CustomModelData:300004}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "mb:item/venom_quiver/start"
+    }
+  }

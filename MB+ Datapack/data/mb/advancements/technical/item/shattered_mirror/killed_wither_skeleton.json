@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "killedWitherSkeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mb:item/shattered_mirror/killed_wither_skeleton"
+    }
+}

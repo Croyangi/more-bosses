@@ -1,0 +1,236 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 100000
+      },
+      "model": "mb:item/king_slime/royal_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100001
+      },
+      "model": "mb:item/king_slime/slimey_spring"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100004
+      },
+      "model": "mb:item/king_slime/gelatinous_matter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100005
+      },
+      "model": "mb:item/king_slime/loot_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100100
+      },
+      "model": "mb:item/king_slime/royal_jello/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100101
+      },
+      "model": "mb:item/king_slime/royal_jello/full"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 200000
+      },
+      "model": "mb:item/restless_soul/shattered_mirror/inactive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200001
+      },
+      "model": "mb:item/restless_soul/shattered_mirror/active"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200002
+      },
+      "model": "mb:item/restless_soul/etherealm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200003
+      },
+      "model": "mb:item/restless_soul/cursed_calcium"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200004
+      },
+      "model": "mb:item/restless_soul/spirit_blade/unlit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200005
+      },
+      "model": "mb:item/restless_soul/possessed_skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200006
+      },
+      "model": "mb:item/restless_soul/soul_leech"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200007
+      },
+      "model": "mb:item/restless_soul/loot_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200100
+      },
+      "model": "mb:item/restless_soul/wisp_in_a_lantern/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 200101
+      },
+      "model": "mb:item/restless_soul/wisp_in_a_lantern/full"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 300000
+      },
+      "model": "mb:item/queen_bee/mysterious_script"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300001
+      },
+      "model": "mb:item/queen_bee/bruce"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300002
+      },
+      "model": "mb:item/queen_bee/rattled_hive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300003
+      },
+      "model": "mb:item/queen_bee/pollinator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300004
+      },
+      "model": "mb:item/queen_bee/venom_quiver"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300005
+      },
+      "model": "mb:item/queen_bee/bumbrella"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300006
+      },
+      "model": "mb:item/queen_bee/hive_mind"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300007
+      },
+      "model": "mb:item/queen_bee/loot_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300008
+      },
+      "model": "mb:item/queen_bee/flower_on_a_stick"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300100
+      },
+      "model": "mb:item/queen_bee/hive_rattle/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 300101
+      },
+      "model": "mb:item/queen_bee/hive_rattle/full"
+    },
+
+
+
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "mb:item/herobrine/mysterious_doll"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "mb:item/herobrine/loot_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "mb:item/herobrine/blink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "mb:item/herobrine/voodoo_doll"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "mb:item/herobrine/staff_of_smiting"
+
+
+
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500000
+      },
+      "model": "mb:item/impostor/loot_bag"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500001
+      },
+      "model": "mb:item/impostor/emergency_meeting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500100
+      },
+      "model": "mb:item/impostor/amogus/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 500101
+      },
+      "model": "mb:item/impostor/amogus/full"
+    }
+  ]
+}

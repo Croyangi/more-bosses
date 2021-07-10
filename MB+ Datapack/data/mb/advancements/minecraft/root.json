@@ -1,0 +1,78 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:barrier",
+        "nbt": "{CustomModelData:1}"
+      },
+      "title": {
+        "translate": "pack.mb",
+        "color": "white"
+      },
+      "description": [
+        {
+          "translate": "advancement.mb.root.description",
+          "color": "#00AA00",
+          "extra": [
+        {
+          "text": "\n",
+          "color": "#00AA00",
+          "extra": [
+        {
+          "translate": "pack.mb.version",
+          "color": "#00AA00",
+          "extra": [
+        {
+          "text": "\n\n",
+          "color": "#AAAAAA",
+          "extra": [
+        {
+          "translate": "advancement.mb.root.developed",
+          "color": "#AAAAAA",
+          "extra": [
+        {
+          "text": "\n\ue001",
+          "font": "mb:icons",
+          "extra": [
+        {
+          "text": " Cro",
+          "color": "#AAAAAA",
+          "font": "minecraft:default",
+          "extra": [
+        {
+          "text": "\n\ue002",
+          "font": "mb:icons",
+          "extra": [
+        {
+          "text": " Jely\n",
+          "color": "#AAAAAA",
+          "font": "minecraft:default"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "background": "minecraft:textures/block/netherite_block.png",
+      "frame": "task"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "mb:technical/initiate/technical_reset"
+    }
+  }

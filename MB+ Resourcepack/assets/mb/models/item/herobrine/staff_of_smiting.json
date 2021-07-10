@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "mb:item/herobrine/staff_of_smiting"
+    }
+}

@@ -1,0 +1,91 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "mb:item/restless_soul/model/skeleton",
+		"2": "mb:item/restless_soul/model/clothes",
+		"particle": "mb:item/restless_soul/model/clothes"
+	},
+	"elements": [
+		{
+			"name": "skull",
+			"from": [4, 23.5, 4],
+			"to": [12, 31.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 23, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#1", "tintindex": 0},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [6, 2, 8, 4], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#1", "tintindex": 0},
+				"up": {"uv": [4, 2, 2, 0], "texture": "#1", "tintindex": 0},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "outer_skull",
+			"from": [3.5, 23, 3.5],
+			"to": [12.5, 32, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 23, 8]},
+			"faces": {
+				"north": {"uv": [2, 7.25, 4, 9.25], "texture": "#2", "tintindex": 0},
+				"east": {"uv": [0, 7.25, 2, 9.25], "texture": "#2", "tintindex": 0},
+				"south": {"uv": [6, 7.25, 8, 9.25], "texture": "#2", "tintindex": 0},
+				"west": {"uv": [4, 7.25, 6, 9.25], "texture": "#2", "tintindex": 0},
+				"up": {"uv": [4, 7.25, 2, 5.25], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [6, 5.25, 4, 7.25], "texture": "#2", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 80, 0],
+			"translation": [0, 1.75, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 80, 0],
+			"translation": [0, 1.75, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 21, 0],
+			"translation": [0, -2, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 21, 0],
+			"translation": [0, -2, 0.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [0, 151, 0],
+			"translation": [0.5, -21.5, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [-0.25, -29, -0.25],
+			"scale": [1.75, 1.75, 1.75]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -7.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "restless_soul",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "head",
+					"origin": [8, 8, 8],
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,123 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:item/king_slime/normal_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub010"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/king_slime/master_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub011"
+      ]
+   },
+
+
+
+   {
+      "type": "bitmap",
+      "file": "mb:item/restless_soul/normal_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub020"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/restless_soul/master_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub021"
+      ]
+   },
+
+
+
+   {
+      "type": "bitmap",
+      "file": "mb:item/queen_bee/normal_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub030"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/queen_bee/master_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub031"
+      ]
+   },
+
+
+
+   {
+      "type": "bitmap",
+      "file": "mb:item/herobrine/normal_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub040"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/herobrine/master_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub041"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/herobrine/jumpscare.png",
+      "ascent": 130,
+      "height": 250,
+      "chars": [
+        "\ub042"
+      ]
+   },
+
+
+
+   {
+      "type": "bitmap",
+      "file": "mb:item/impostor/normal_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub050"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/impostor/master_bossbar.png",
+      "ascent": 10,
+      "height": 50,
+      "chars": [
+        "\ub051"
+      ]
+   },
+   {
+      "type": "bitmap",
+      "file": "mb:item/impostor/sus_overlay.png",
+      "ascent": 75,
+      "height": 150,
+      "chars": [
+        "\ub052"
+      ]
+    }
+  ]
+}

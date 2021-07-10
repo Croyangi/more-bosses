@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "nbt": "{CustomModelData:100000}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mb:item/slime_bow/start"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "royalCrownUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "mb:royal_crown"
+            }
+        }
+    },
+    "rewards": {
+        "function": "mb:recipes/royal_crown"
+    }
+}

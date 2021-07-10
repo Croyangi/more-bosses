@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/leather_boots_overlay",
+    "layer1": "item/leather_boots"
+  },
+  "overrides": [{
+      "predicate": {
+        "custom_model_data": 100000
+      },
+      "model": "mb:item/king_slime/boing_boots"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancement.mb.they_grow_up_so_fast.title",
+            "color": "white"
+        },
+        "description": {
+            "translate": "advancement.mb.they_grow_up_so_fast.description",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:barrier",
+            "nbt": "{CustomModelData:300003}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "mb:minecraft/root"
+}
