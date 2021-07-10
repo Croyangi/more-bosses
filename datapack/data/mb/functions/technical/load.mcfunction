@@ -1,6 +1,9 @@
 ############################################################
-# Description: Initiates and adds scoreboards
+# Description: Runs this every reload
 ############################################################
+
+# Reload tellraw
+function mb:settings/reload_page
 
 # Settings scoreboards
 scoreboard objectives add MB.settings trigger

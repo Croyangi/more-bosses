@@ -65,14 +65,13 @@
         }
       ],
       "background": "minecraft:textures/block/netherite_block.png",
-      "frame": "task"
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false
     },
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick"
       }
-    },
-    "rewards": {
-      "function": "mb:technical/initiate/technical_reset"
     }
   }

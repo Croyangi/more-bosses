@@ -86,6 +86,5 @@ bossbar remove herobrine
 
 # Teams
 team remove MBpets
-team modify MBpets collisionRule never
 
 team remove MB.boss
