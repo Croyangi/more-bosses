@@ -9,7 +9,7 @@ Jely - Textures/Models, Multiplayer testing
 Garlicbread_exe - Multiplayer testing
 Loader - Translating More Bosses+ to Brazil/Portuguese
 Shamwig - Translating More Bosses+ to Spanish
-Creepermagnet_ - A massive inspiration for datapacks, programming, and techniques
+Creepermagnet_ - Helped in progamming, as well as a massive inspiration for datapacks, programming, and techniques.
 
 # Contact Info
 Cro/Discord - Cro#2864
