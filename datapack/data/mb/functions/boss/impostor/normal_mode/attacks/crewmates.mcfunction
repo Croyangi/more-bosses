@@ -2,7 +2,7 @@
 # Description: Summons Crewmates
 ############################################################
 
-tag @a[sort=arbitrary] add mb.impostor.rng_generate
+tag @a add mb.impostor.rng_generate
 scoreboard players set @a[tag=mb.impostor.rng_generate] MB.rng.input 3
 execute as @a[tag=mb.impostor.rng_generate] run function mb:technical/rng_generate
 
