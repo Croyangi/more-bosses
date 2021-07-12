@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:barrier",
-            "nbt": "{CustomModelData:100001}"
+            "nbt": "{CustomModelData:133004}"
         },
         "frame": "challenge",
         "show_toast": true,

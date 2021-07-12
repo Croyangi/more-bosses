@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:500000,HasOwner:0b,mb:{id:\"loot_bag\"},HideFlags:127,Unbreakable:1b}"
+              "tag": "{CustomModelData:133032,HasOwner:0b,mb:{id:\"loot_bag\"},HideFlags:127,Unbreakable:1b}"
             },
             {
               "function": "set_name",

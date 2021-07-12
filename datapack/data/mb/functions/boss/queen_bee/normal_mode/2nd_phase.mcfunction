@@ -13,4 +13,4 @@ schedule function mb:boss/queen_bee/normal_mode/attacks/honey_spill/summon 1s ap
 schedule function mb:boss/queen_bee/normal_mode/attacks/stinger_rain/schedule 5s append
 
 # Second phase model
-item replace entity @e[tag=mb.queen_bee.model] armor.head with minecraft:leather_horse_armor{CustomModelData:300001}
+item replace entity @e[tag=mb.queen_bee.model] armor.head with minecraft:leather_horse_armor{CustomModelData:133005}

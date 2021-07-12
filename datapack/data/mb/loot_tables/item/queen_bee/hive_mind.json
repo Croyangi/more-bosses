@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:300006,craftNbt:300006,dropCraft:1b}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133022}"
             },
             {
               "function": "set_name",

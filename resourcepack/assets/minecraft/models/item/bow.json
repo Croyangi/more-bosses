@@ -47,14 +47,14 @@
     },
     {
       "predicate": {
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/slime_bow/pulling_0"
     },
     {
       "predicate": {
         "pulling": 1,
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/slime_bow/pulling_1"
     },
@@ -62,7 +62,7 @@
       "predicate": {
         "pulling": 1,
         "pull": 0.65,
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/slime_bow/pulling_2"
     },
@@ -70,7 +70,7 @@
       "predicate": {
         "pulling": 1,
         "pull": 0.9,
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/slime_bow/pulling_3"
     }

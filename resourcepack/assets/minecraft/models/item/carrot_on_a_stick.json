@@ -6,37 +6,37 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/royal_crown"
     },
     {
       "predicate": {
-        "custom_model_data": 100001
+        "custom_model_data": 133001
       },
       "model": "mb:item/king_slime/slimey_spring"
     },
     {
       "predicate": {
-        "custom_model_data": 100004
+        "custom_model_data": 133002
       },
       "model": "mb:item/king_slime/gelatinous_matter"
     },
     {
       "predicate": {
-        "custom_model_data": 100005
+        "custom_model_data": 133003
       },
       "model": "mb:item/king_slime/loot_bag"
     },
     {
       "predicate": {
-        "custom_model_data": 100100
+        "custom_model_data": 133004
       },
       "model": "mb:item/king_slime/royal_jello/empty"
     },
     {
       "predicate": {
-        "custom_model_data": 100101
+        "custom_model_data": 133005
       },
       "model": "mb:item/king_slime/royal_jello/full"
     },
@@ -45,61 +45,61 @@
 
     {
       "predicate": {
-        "custom_model_data": 200000
+        "custom_model_data": 133006
       },
       "model": "mb:item/restless_soul/shattered_mirror/inactive"
     },
     {
       "predicate": {
-        "custom_model_data": 200001
+        "custom_model_data": 133007
       },
       "model": "mb:item/restless_soul/shattered_mirror/active"
     },
     {
       "predicate": {
-        "custom_model_data": 200002
+        "custom_model_data": 133008
       },
       "model": "mb:item/restless_soul/etherealm"
     },
     {
       "predicate": {
-        "custom_model_data": 200003
+        "custom_model_data": 133009
       },
       "model": "mb:item/restless_soul/cursed_calcium"
     },
     {
       "predicate": {
-        "custom_model_data": 200004
+        "custom_model_data": 133010
       },
-      "model": "mb:item/restless_soul/spirit_blade/unlit"
+      "model": "mb:item/restless_soul/spirit_blade"
     },
     {
       "predicate": {
-        "custom_model_data": 200005
+        "custom_model_data": 133011
       },
       "model": "mb:item/restless_soul/possessed_skull"
     },
     {
       "predicate": {
-        "custom_model_data": 200006
+        "custom_model_data": 133012
       },
       "model": "mb:item/restless_soul/soul_leech"
     },
     {
       "predicate": {
-        "custom_model_data": 200007
+        "custom_model_data": 133013
       },
       "model": "mb:item/restless_soul/loot_bag"
     },
     {
       "predicate": {
-        "custom_model_data": 200100
+        "custom_model_data": 133014
       },
       "model": "mb:item/restless_soul/wisp_in_a_lantern/empty"
     },
     {
       "predicate": {
-        "custom_model_data": 200101
+        "custom_model_data": 133015
       },
       "model": "mb:item/restless_soul/wisp_in_a_lantern/full"
     },
@@ -108,67 +108,67 @@
 
     {
       "predicate": {
-        "custom_model_data": 300000
+        "custom_model_data": 133016
       },
       "model": "mb:item/queen_bee/mysterious_script"
     },
     {
       "predicate": {
-        "custom_model_data": 300001
+        "custom_model_data": 133017
       },
       "model": "mb:item/queen_bee/bruce"
     },
     {
       "predicate": {
-        "custom_model_data": 300002
+        "custom_model_data": 133018
       },
       "model": "mb:item/queen_bee/rattled_hive"
     },
     {
       "predicate": {
-        "custom_model_data": 300003
+        "custom_model_data": 133019
       },
       "model": "mb:item/queen_bee/pollinator"
     },
     {
       "predicate": {
-        "custom_model_data": 300004
+        "custom_model_data": 133020
       },
       "model": "mb:item/queen_bee/venom_quiver"
     },
     {
       "predicate": {
-        "custom_model_data": 300005
+        "custom_model_data": 133021
       },
       "model": "mb:item/queen_bee/bumbrella"
     },
     {
       "predicate": {
-        "custom_model_data": 300006
+        "custom_model_data": 133022
       },
       "model": "mb:item/queen_bee/hive_mind"
     },
     {
       "predicate": {
-        "custom_model_data": 300007
+        "custom_model_data": 133023
       },
       "model": "mb:item/queen_bee/loot_bag"
     },
     {
       "predicate": {
-        "custom_model_data": 300008
+        "custom_model_data": 133024
       },
       "model": "mb:item/queen_bee/flower_on_a_stick"
     },
     {
       "predicate": {
-        "custom_model_data": 300100
+        "custom_model_data": 133025
       },
       "model": "mb:item/queen_bee/hive_rattle/empty"
     },
     {
       "predicate": {
-        "custom_model_data": 300101
+        "custom_model_data": 133026
       },
       "model": "mb:item/queen_bee/hive_rattle/full"
     },
@@ -177,31 +177,31 @@
 
     {
       "predicate": {
-        "custom_model_data": 400000
+        "custom_model_data": 133027
       },
       "model": "mb:item/herobrine/mysterious_doll"
     },
     {
       "predicate": {
-        "custom_model_data": 400001
+        "custom_model_data": 133028
       },
       "model": "mb:item/herobrine/loot_bag"
     },
     {
       "predicate": {
-        "custom_model_data": 400002
+        "custom_model_data": 133029
       },
       "model": "mb:item/herobrine/blink"
     },
     {
       "predicate": {
-        "custom_model_data": 400003
+        "custom_model_data": 133030
       },
       "model": "mb:item/herobrine/voodoo_doll"
     },
     {
       "predicate": {
-        "custom_model_data": 400004
+        "custom_model_data": 133031
       },
       "model": "mb:item/herobrine/staff_of_smiting"
 
@@ -210,25 +210,25 @@
     },
     {
       "predicate": {
-        "custom_model_data": 500000
+        "custom_model_data": 133032
       },
       "model": "mb:item/impostor/loot_bag"
     },
     {
       "predicate": {
-        "custom_model_data": 500001
+        "custom_model_data": 133033
       },
       "model": "mb:item/impostor/emergency_meeting"
     },
     {
       "predicate": {
-        "custom_model_data": 500100
+        "custom_model_data": 133034
       },
       "model": "mb:item/impostor/amogus/empty"
     },
     {
       "predicate": {
-        "custom_model_data": 500101
+        "custom_model_data": 133035
       },
       "model": "mb:item/impostor/amogus/full"
     }

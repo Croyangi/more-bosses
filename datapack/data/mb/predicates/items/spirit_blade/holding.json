@@ -7,7 +7,7 @@
         "items": [
           "minecraft:iron_sword"
         ],
-        "nbt": "{CustomModelData:200000}"
+        "nbt": "{CustomModelData:133010}"
       }
     }
   }

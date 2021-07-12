@@ -1,6 +1,6 @@
 ############################################################
-# Description: Used Queen Bee Lootbag
+# Description: Used Impostor Lootbag
 ############################################################
 
 function mb:item/loot_bag/impostor/rng
-clear @s carrot_on_a_stick{CustomModelData:500000} 1
+clear @s carrot_on_a_stick{CustomModelData:133032} 1

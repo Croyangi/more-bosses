@@ -7,7 +7,7 @@
           "items": [
             "minecraft:potion"
           ],
-          "nbt": "{CustomModelData:200000}"
+          "nbt": "{CustomModelData:133000}"
         }
       }
     }

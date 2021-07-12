@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "mb:item/advancements/herobrine_removed"
+        "layer0": "mb:item/advancements/removed_herobrine"
     }
 }

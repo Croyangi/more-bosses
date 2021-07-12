@@ -5,25 +5,25 @@
   },
   "overrides": [{
       "predicate": {
-        "custom_model_data": 200000
+        "custom_model_data": 133000
       },
       "model": "mb:item/restless_soul/model/idle"
     },
     {
       "predicate": {
-        "custom_model_data": 200001
+        "custom_model_data": 133001
       },
       "model": "mb:item/restless_soul/model/walking"
     },
     {
       "predicate": {
-        "custom_model_data": 200002
+        "custom_model_data": 133002
       },
       "model": "mb:item/restless_soul/model/head"
     },
     {
       "predicate": {
-        "custom_model_data": 200003
+        "custom_model_data": 133003
       },
       "model": "mb:item/restless_soul/model/necromance"
     },
@@ -32,13 +32,13 @@
 
     {
       "predicate": {
-        "custom_model_data": 300000
+        "custom_model_data": 133004
       },
       "model": "mb:item/queen_bee/model/idle"
     },
     {
       "predicate": {
-        "custom_model_data": 300001
+        "custom_model_data": 133005
       },
       "model": "mb:item/queen_bee/model/idle_angry"
     },
@@ -47,25 +47,25 @@
 
     {
       "predicate": {
-        "custom_model_data": 400000
+        "custom_model_data": 133006
       },
       "model": "mb:item/herobrine/model/idle"
     },
     {
       "predicate": {
-        "custom_model_data": 400001
+        "custom_model_data": 133007
       },
       "model": "mb:item/herobrine/model/walking"
     },
     {
       "predicate": {
-        "custom_model_data": 400002
+        "custom_model_data": 133008
       },
       "model": "mb:item/herobrine/model/head"
     },
     {
       "predicate": {
-        "custom_model_data": 400003
+        "custom_model_data": 133009
       },
       "model": "mb:item/herobrine/model/hands_raised"
 
@@ -74,7 +74,7 @@
     },
     {
       "predicate": {
-        "custom_model_data": 500000
+        "custom_model_data": 133010
       },
       "model": "mb:item/impostor/model/impostor"
 

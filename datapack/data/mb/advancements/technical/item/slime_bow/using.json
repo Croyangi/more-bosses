@@ -7,7 +7,7 @@
           "items": [
             "minecraft:bow"
           ],
-          "nbt": "{CustomModelData:100000}"
+          "nbt": "{CustomModelData:133000}"
         }
       }
     }

@@ -6,7 +6,7 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 1
+        "custom_model_data": 133000
       },
       "model": "mb:item/advancements/root"
     },
@@ -15,13 +15,13 @@
 
     {
       "predicate": {
-        "custom_model_data": 10000
+        "custom_model_data": 133001
       },
       "model": "mb:item/advancements/boss_rushed"
     },
     {
       "predicate": {
-        "custom_model_data": 10001
+        "custom_model_data": 133002
       },
       "model": "mb:item/advancements/coup_detat"
     },
@@ -30,25 +30,25 @@
 
     {
       "predicate": {
-        "custom_model_data": 100000
+        "custom_model_data": 133003
       },
       "model": "mb:item/advancements/royal_overthrow"
     },
     {
       "predicate": {
-        "custom_model_data": 100001
+        "custom_model_data": 133004
       },
       "model": "mb:item/advancements/de-throned"
     },
     {
       "predicate": {
-        "custom_model_data": 100002
+        "custom_model_data": 133005
       },
       "model": "mb:item/advancements/flawless_king_slime"
     },
     {
       "predicate": {
-        "custom_model_data": 100003
+        "custom_model_data": 133006
       },
       "model": "mb:item/advancements/fit_for_a_king"
     },
@@ -57,37 +57,37 @@
 
     {
       "predicate": {
-        "custom_model_data": 200000
+        "custom_model_data": 133007
       },
       "model": "mb:item/advancements/free_the_souls"
     },
     {
       "predicate": {
-        "custom_model_data": 200001
+        "custom_model_data": 133008
       },
       "model": "mb:item/advancements/etherealness"
     },
     {
       "predicate": {
-        "custom_model_data": 200002
+        "custom_model_data": 133009
       },
       "model": "mb:item/advancements/flawless_restless_soul"
     },
     {
       "predicate": {
-        "custom_model_data": 200003
+        "custom_model_data": 133010
       },
       "model": "mb:item/advancements/man_in_the_mirror"
     },
     {
       "predicate": {
-        "custom_model_data": 200004
+        "custom_model_data": 133011
       },
       "model": "mb:item/advancements/what_did_i_tell_you"
     },
     {
       "predicate": {
-        "custom_model_data": 200005
+        "custom_model_data": 133012
       },
       "model": "mb:item/advancements/home_turf"
     },
@@ -96,25 +96,25 @@
 
     {
       "predicate": {
-        "custom_model_data": 300000
+        "custom_model_data": 133013
       },
       "model": "mb:item/advancements/sting_operation"
     },
     {
       "predicate": {
-        "custom_model_data": 300001
+        "custom_model_data": 133014
       },
       "model": "mb:item/advancements/buzzkill"
     },
     {
       "predicate": {
-        "custom_model_data": 300002
+        "custom_model_data": 133015
       },
       "model": "mb:item/advancements/flawless_queen_bee"
     },
     {
       "predicate": {
-        "custom_model_data": 300003
+        "custom_model_data": 133016
       },
       "model": "mb:item/advancements/they_grow_up_so_fast"
     },
@@ -123,27 +123,21 @@
 
     {
       "predicate": {
-        "custom_model_data": 400000
+        "custom_model_data": 133017
       },
-      "model": "mb:item/advancements/herobrine_removed"
+      "model": "mb:item/advancements/removed_herobrine"
     },
     {
       "predicate": {
-        "custom_model_data": 400001
+        "custom_model_data": 133018
       },
       "model": "mb:item/advancements/myth_busted"
     },
     {
       "predicate": {
-        "custom_model_data": 400002
+        "custom_model_data": 133019
       },
       "model": "mb:item/advancements/flawless_herobrine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 400003
-      },
-      "model": "mb:item/advancements/in_the_headlights"
     }
   ]
 }

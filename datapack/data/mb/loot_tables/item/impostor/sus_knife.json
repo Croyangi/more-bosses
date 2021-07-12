@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:500000,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:99999,Operation:0,UUID:[I;864200053,1146831450,-1848141374,1249594391],Slot:\"mainhand\"}]}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133001,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:99999,Operation:0,UUID:[I;864200053,1146831450,-1848141374,1249594391],Slot:\"mainhand\"}]}"
             },
             {
               "function": "set_name",

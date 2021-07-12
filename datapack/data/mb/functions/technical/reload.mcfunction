@@ -4,5 +4,3 @@
 
 # Reload tellraw
 function mb:settings/reload_page
-
-# test

@@ -6,7 +6,7 @@
   },
   "overrides": [{
       "predicate": {
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/boing_boots"
     }

@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,CustomModelData:300001,craftNbt:300001,dropCraft:1b}"
+              "tag": "{HideFlags:127,CustomModelData:133017}"
             },
             {
               "function": "set_name",

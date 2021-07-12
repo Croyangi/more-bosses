@@ -6,13 +6,13 @@
   "overrides": [
     {
       "predicate": {
-        "custom_model_data": 100000
+        "custom_model_data": 133000
       },
       "model": "mb:item/king_slime/model/crown"
     },
     {
       "predicate": {
-        "custom_model_data": 100001
+        "custom_model_data": 133001
       },
       "model": "mb:item/king_slime/model/crown_cracked"
     },
@@ -21,67 +21,67 @@
 
     {
       "predicate": {
-        "custom_model_data": 200000
+        "custom_model_data": 133002
       },
       "model": "mb:item/restless_soul/model/archer_head"
     },
     {
       "predicate": {
-        "custom_model_data": 200001
+        "custom_model_data": 133003
       },
       "model": "mb:item/restless_soul/model/berserker_head"
     },
     {
       "predicate": {
-        "custom_model_data": 200002
+        "custom_model_data": 133004
       },
       "model": "mb:item/restless_soul/model/leader_head"
     },
     {
       "predicate": {
-        "custom_model_data": 200003
+        "custom_model_data": 133005
       },
       "model": "mb:item/restless_soul/model/soul_storm"
     },
     {
       "predicate": {
-        "custom_model_data": 200004
+        "custom_model_data": 133006
       },
       "model": "mb:item/restless_soul/model/soul_ring"
     },
     {
       "predicate": {
-        "custom_model_data": 200005
+        "custom_model_data": 133007
       },
       "model": "mb:item/restless_soul/model/soul_dragon/head"
     },
     {
       "predicate": {
-        "custom_model_data": 200006
+        "custom_model_data": 133008
       },
       "model": "mb:item/restless_soul/model/soul_dragon/body"
     },
     {
       "predicate": {
-        "custom_model_data": 200007
+        "custom_model_data": 133009
       },
       "model": "mb:item/restless_soul/model/soul_dragon/tail"
     },
     {
       "predicate": {
-        "custom_model_data": 200008
+        "custom_model_data": 133010
       },
       "model": "mb:item/restless_soul/model/bone_barricade"
     },
     {
       "predicate": {
-        "custom_model_data": 200100
+        "custom_model_data": 133011
       },
       "model": "mb:item/soulbound/marker"
     },
     {
       "predicate": {
-        "custom_model_data": 200201
+        "custom_model_data": 133012
       },
       "model": "mb:item/restless_soul/wisp_in_a_lantern/wispy"
     },
@@ -90,43 +90,43 @@
 
     {
       "predicate": {
-        "custom_model_data": 300000
+        "custom_model_data": 133013
       },
       "model": "mb:item/queen_bee/model/homing_stinger"
     },
     {
       "predicate": {
-        "custom_model_data": 300001
+        "custom_model_data": 133014
       },
       "model": "mb:item/queen_bee/model/bee_drone"
     },
     {
       "predicate": {
-        "custom_model_data": 300002
+        "custom_model_data": 133015
       },
       "model": "mb:item/queen_bee/model/stinger_rain"
     },
     {
       "predicate": {
-        "custom_model_data": 300003
+        "custom_model_data": 133016
       },
       "model": "mb:item/queen_bee/model/stinger_rain_marker"
     },
     {
       "predicate": {
-        "custom_model_data": 300004
+        "custom_model_data": 133017
       },
       "model": "mb:item/queen_bee/hive_rattle/bruce"
     },
     {
       "predicate": {
-        "custom_model_data": 300100
+        "custom_model_data": 133018
       },
       "model": "mb:item/queen_bee/bee_mount/bee_mount"
     },
     {
       "predicate": {
-        "custom_model_data": 300101
+        "custom_model_data": 133019
       },
       "model": "mb:item/queen_bee/bee_mount/cool_bee_mount"
     },
@@ -135,62 +135,62 @@
 
     {
       "predicate": {
-        "custom_model_data": 400000
+        "custom_model_data": 133020
       },
       "model": "mb:item/herobrine/model/smite_marker"
     },
     {
       "predicate": {
-        "custom_model_data": 400001
+        "custom_model_data": 133021
       },
       "model": "mb:item/herobrine/model/spike"
     },
     {
       "predicate": {
-        "custom_model_data": 400002
+        "custom_model_data": 133022
       },
       "model": "mb:item/herobrine/model/eyes"
     },
     {
       "predicate": {
-        "custom_model_data": 400003
+        "custom_model_data": 133023
       },
       "model": "mb:item/herobrine/model/spike_small"
     },
     {
       "predicate": {
-        "custom_model_data": 400004
+        "custom_model_data": 133024
       },
       "model": "mb:item/herobrine/model/spike_big"
 
     },
     {
       "predicate": {
-        "custom_model_data": 500000
+        "custom_model_data": 133025
       },
       "model": "mb:item/impostor/model/crewmate/green"
     },
     {
       "predicate": {
-        "custom_model_data": 500001
+        "custom_model_data": 133026
       },
       "model": "mb:item/impostor/model/crewmate/orange"
     },
     {
       "predicate": {
-        "custom_model_data": 500002
+        "custom_model_data": 133027
       },
       "model": "mb:item/impostor/model/crewmate/purple"
     },
     {
       "predicate": {
-        "custom_model_data": 500100
+        "custom_model_data": 133028
       },
       "model": "mb:item/impostor/amogus/non-drip"
     },
     {
       "predicate": {
-        "custom_model_data": 500101
+        "custom_model_data": 133029
       },
       "model": "mb:item/impostor/amogus/drip"
     }

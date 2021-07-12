@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:100101}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133005}"
             },
             {
               "function": "set_name",

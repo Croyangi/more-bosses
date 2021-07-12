@@ -4,8 +4,8 @@
 
 execute unless entity @a[distance=..10] run function mb:item/amogus/teleport
 
-item replace entity @s weapon.mainhand with diamond_hoe{CustomModelData:500100}
-item replace entity @s[tag=mb.amogus.mini_crewmate.drip] weapon.mainhand with diamond_hoe{CustomModelData:500101}
+item replace entity @s weapon.mainhand with diamond_hoe{CustomModelData:133028}
+item replace entity @s[tag=mb.amogus.mini_crewmate.drip] weapon.mainhand with diamond_hoe{CustomModelData:133029}
 
 data modify entity @s WanderTarget.X set from entity @p Pos[0]
 data modify entity @s WanderTarget.Y set from entity @p Pos[1]

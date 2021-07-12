@@ -10,7 +10,7 @@
         },
         "icon": {
             "item": "minecraft:diamond_hoe",
-            "nbt": "{CustomModelData:300101}"
+            "nbt": "{CustomModelData:133019}"
         },
         "frame": "task",
         "show_toast": true,
