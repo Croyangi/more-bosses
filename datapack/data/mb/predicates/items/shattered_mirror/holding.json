@@ -10,7 +10,7 @@
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133006}"
+            "nbt": "{mb:{id:\"shattered_mirror\"}}"
           }
         }
       }
@@ -24,7 +24,7 @@
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133006}"
+            "nbt": "{mb:{id:\"shattered_mirror\"}}"
           }
         }
       }

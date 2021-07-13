@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,CustomModelData:133000,CustomPotionColor:16777215}"
+              "tag": "{HideFlags:127,CustomModelData:133000,CustomPotionColor:16777215,mb:{id:\"potion_of_soulbounding\"}}"
             },
             {
               "function": "set_name",

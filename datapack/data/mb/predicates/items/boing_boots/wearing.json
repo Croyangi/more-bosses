@@ -7,11 +7,7 @@
         "items": [
           "minecraft:leather_boots"
         ],
-<<<<<<< HEAD
-        "nbt": "{CustomModelData:133000}"
-=======
         "nbt": "{mb:{id:\"boing_boots\"}}"
->>>>>>> 6e13bc9c813ccfba2989ca496207542b857bcd5e
       }
     }
   }

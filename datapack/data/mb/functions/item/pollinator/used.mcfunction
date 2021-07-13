@@ -2,15 +2,11 @@
 # Description: Used Pollinator
 ############################################################
 
-# Technical
-tag @s add pollinator
-scoreboard players operation @s pollinator.cool = @s MBitemCooldown
+scoreboard players set @s mb.pollinat.cool 300
+scoreboard players add @s mb.global_cool 1
 
-function mb:item/pollinator/link
+summon area_effect_cloud ~ ~.3 ~ {Particle:"item poppy",ReapplicationDelay:60,Radius:4f,Duration:100,Effects:[{Id:10b,Amplifier:2b,Duration:60,ShowParticles:0b}]}
 
-# Effects
-playsound mb:item.pollinator.used master @s ~ ~ ~ 1 1 1
+playsound mb:item.pollinator.used master @a[distance=..16]
 particle minecraft:cloud ~ ~ ~ 0 0 0 .3 30 normal
 particle block honey_block ~ ~ ~ 0 0 0 1 30 normal
-
-schedule function mb:item/pollinator/loop 1t append

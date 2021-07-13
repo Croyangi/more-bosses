@@ -14,7 +14,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{CustomModelData:133035}"
+                "tag": "{CustomModelData:133035,mb:{id:\"amogus\", state:\"full\"}}"
               },
               {
                 "function": "set_name",

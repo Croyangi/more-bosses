@@ -2,26 +2,16 @@
 # Description: Flower on a Stick used
 ############################################################
 
-# Technical
-tag @s add flowerStick
-scoreboard players set @a flowerStick.anim 2
+# Bee mount link
+scoreboard players set bee_mount.rng mb.dummy1 0
+execute if predicate mb:chance/one_fiftieth run scoreboard players set bee_mount.rng mb.dummy1 1
+execute at @s[scores={mb.floweroas.tog=0}] run function mb:item/flower_on_a_stick/link
 
-# Cool Bee Mount RNG
-scoreboard players set @s flowerStick.rng 0
-scoreboard players set @s[predicate=mb:chance/one_fiftieth] flowerStick.rng 1
+scoreboard players add @s mb.floweroas.tog 1
+execute as @s[scores={mb.floweroas.tog=2..}] run function mb:item/flower_on_a_stick/despawn
 
-# Bee Mount link
-execute at @s[scores={flowerStick.tog=0}] run function mb:item/flower_on_a_stick/link
-
-# Technical
-scoreboard players add @s flowerStick.tog 1
-execute as @s[scores={flowerStick.tog=2..}] run function mb:item/flower_on_a_stick/despawn
-
-# Effects
 playsound mb:item.flower_on_a_stick.used master @s ~ ~ ~ 1 1 1
 
 # Advancment
 advancement grant @s only mb:minecraft/flight_of_the_bumblebee
-advancement grant @s[scores={flowerStick.rng=1}] only mb:minecraft/bad_to_the_bee
-
-schedule function mb:item/flower_on_a_stick/loop 1t append
+execute if score bee_mount.rng mb.dummy1 matches 1 run advancement grant @s only mb:minecraft/bad_to_the_bee

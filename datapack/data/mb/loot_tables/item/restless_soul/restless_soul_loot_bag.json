@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:133013,HasOwner:0b,mb:{id:\"loot_bag\"},HideFlags:127,Unbreakable:1b}"
+              "tag": "{CustomModelData:133013,HasOwner:0b,HideFlags:127,Unbreakable:1b,mb:{id:\"restless_soul_loot_bag\"}}"
             },
             {
               "function": "set_name",

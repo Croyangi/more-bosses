@@ -4,7 +4,7 @@
 
 # Technical
 tag @s add staffOfSmiting
-scoreboard players operation @s smite.cool = item.cooldown MB.dummy1
+scoreboard players operation @s smite.cool = item.cooldown mb.dummy1
 
 # Effects
 playsound mb:item.staff_of_smiting.used master @s ~ ~ ~ 1 1 1

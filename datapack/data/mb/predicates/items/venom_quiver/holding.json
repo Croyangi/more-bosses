@@ -6,11 +6,11 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-          "mainhand": {
+          "offhand": {
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133020}"
+            "nbt": "{mb:{id:\"venom_quiver\"}}"
           }
         }
       }
@@ -20,11 +20,11 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-          "offhand": {
+          "mainhand": {
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133020}"
+            "nbt": "{mb:{id:\"venom_quiver\"}}"
           }
         }
       }

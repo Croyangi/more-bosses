@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "mb:item/bruce",
+            "name": "mb:item/queen_bee/bruce",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",

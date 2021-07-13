@@ -1,14 +1,33 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "items": [
-          "minecraft:iron_sword"
-        ],
-        "nbt": "{CustomModelData:133010}"
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{mb:{id:\"spirit_blade\"}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{mb:{id:\"spirit_blade\"}}"
+          }
+        }
       }
     }
-  }
+  ]
 }

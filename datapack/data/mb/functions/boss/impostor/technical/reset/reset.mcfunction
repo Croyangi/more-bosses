@@ -10,7 +10,9 @@ bossbar set mb:impostor visible false
 
 advancement revoke @a only mb:technical/boss/impostor/normal_second_phase
 advancement revoke @a only mb:technical/boss/impostor/master_second_phase
-
 advancement revoke @a only mb:technical/boss/impostor/hurt_impostor
 
 tag @a remove mb.impostor.active
+
+stopsound @a master mb:entity.impostor.spotify_ad
+title @a times 0 0 0

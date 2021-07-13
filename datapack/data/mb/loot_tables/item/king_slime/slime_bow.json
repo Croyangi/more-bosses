@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:133000}"
+              "tag": "{HideFlags:4,Unbreakable:1b,CustomModelData:133000,mb:{id:\"slime_bow\"}}"
             },
             {
               "function": "set_name",

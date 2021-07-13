@@ -10,7 +10,7 @@
             "items": [
               "minecraft:bow"
             ],
-            "nbt": "{CustomModelData:133000}"
+            "nbt": "{mb:{id:\"slime_bow\"}}"
           }
         }
       }
@@ -24,7 +24,7 @@
             "items": [
               "minecraft:bow"
             ],
-            "nbt": "{CustomModelData:133000}"
+            "nbt": "{mb:{id:\"slime_bow\"}}"
           }
         }
       }

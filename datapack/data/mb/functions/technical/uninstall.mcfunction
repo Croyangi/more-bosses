@@ -39,7 +39,7 @@ scoreboard objectives remove MB.itemnbt
 scoreboard players set @a MB.itemnbt 0
 
 # scoreboards
-scoreboard objectives remove MB.dummy1
+scoreboard objectives remove mb.dummy1
 scoreboard objectives remove MB.dummy2
 scoreboard objectives remove MB.dummy3
 
@@ -68,9 +68,9 @@ scoreboard objectives remove royalNectar
 scoreboard objectives remove soulLeech.cool
 scoreboard objectives remove soulLeech.fx
 
-scoreboard objectives remove soulbound.time
+scoreboard objectives remove mb.soulboun.time
 
-scoreboard objectives remove flowerStick.tog
+scoreboard objectives remove mb.floweroas.tog
 scoreboard objectives remove flowerStick.anim
 scoreboard objectives remove flowerStick.alt
 

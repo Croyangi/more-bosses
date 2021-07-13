@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "punishPlayer": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "mb:item/slimey_spring/used"
+    }
+}

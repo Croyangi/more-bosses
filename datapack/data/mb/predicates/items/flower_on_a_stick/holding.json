@@ -6,11 +6,11 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-          "mainhand": {
+          "offhand": {
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133024}"
+            "nbt": "{mb:{id:\"flower_on_a_stick\"}}"
           }
         }
       }
@@ -20,11 +20,11 @@
       "entity": "this",
       "predicate": {
         "equipment": {
-          "offhand": {
+          "mainhand": {
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:133024}"
+            "nbt": "{mb:{id:\"flower_on_a_stick\"}}"
           }
         }
       }

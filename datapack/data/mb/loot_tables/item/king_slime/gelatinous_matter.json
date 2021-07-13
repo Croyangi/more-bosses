@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133002}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133002,mb:{id:\"gelatinous_matter\", state:\"dropcraftable\"}}"
             },
             {
               "function": "set_name",

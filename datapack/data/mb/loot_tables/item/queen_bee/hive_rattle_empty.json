@@ -14,7 +14,7 @@
               },
               {
                 "function": "set_nbt",
-                "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133025}"
+                "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133025,mb:{id:\"hive_rattle\", state:\"empty\"}}"
               },
               {
                 "function": "set_name",

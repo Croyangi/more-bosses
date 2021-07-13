@@ -4,7 +4,7 @@
 
 # Technical
 tag @s add blink
-scoreboard players operation @s blink.cool = item.cooldown MB.dummy1
+scoreboard players operation @s blink.cool = item.cooldown mb.dummy1
 
 summon marker ~ ~ ~ {Tags:["blink.raycast"]}
 scoreboard players set @s blink.raycast 0

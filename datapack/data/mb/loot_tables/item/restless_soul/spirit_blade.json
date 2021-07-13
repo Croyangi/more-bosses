@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133000}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133000,mb:\"spirit_blade\",AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:.02,Operation:0,UUID:[I;1690089198,-1323479597,-1969770420,690690134]}]}"
             },
             {
               "function": "set_name",

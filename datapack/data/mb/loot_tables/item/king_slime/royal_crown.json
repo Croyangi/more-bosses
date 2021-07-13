@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133000}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133000,mb:{id:\"royal_crown\"}}"
             },
             {
               "function": "set_name",

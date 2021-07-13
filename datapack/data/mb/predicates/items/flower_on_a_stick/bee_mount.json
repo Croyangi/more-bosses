@@ -3,7 +3,7 @@
     "entity": "this",
     "predicate": {
       "type": "minecraft:armor_stand",
-      "nbt": "{Tags:[\"beeMountRoot\"]}",
+      "nbt": "{Tags:[\"mb.flower_on_a_stick.bee_mount.root\"]}",
       "distance": {
         "horizontal": {
           "min": 0,

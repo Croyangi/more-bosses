@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "offhand": {
-        "items": [
-          "minecraft:carrot_on_a_stick"
-        ],
-        "nbt": "{CustomModelData:133021}"
-=======
   "condition": "minecraft:alternative",
   "terms": [
     {
@@ -21,7 +10,7 @@
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:300005}"
+            "nbt": "{mb:{id:\"bumbrella\"}}"
           }
         }
       }
@@ -35,10 +24,9 @@
             "items": [
               "minecraft:carrot_on_a_stick"
             ],
-            "nbt": "{CustomModelData:300005}"
+            "nbt": "{mb:{id:\"bumbrella\"}}"
           }
         }
->>>>>>> 6e13bc9c813ccfba2989ca496207542b857bcd5e
       }
     }
   ]

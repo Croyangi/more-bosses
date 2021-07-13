@@ -2,6 +2,6 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-      "nbt": "{RootVehicle:{Entity:{Tags:[\"beeMountRoot\"]}}}"
+      "nbt": "{RootVehicle:{Entity:{Tags:[\"mb.flower_on_a_stick.bee_mount.root\"]}}}"
     }
   }

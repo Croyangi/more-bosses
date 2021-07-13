@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133022}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133022,mb:{id:\"hive_mind\", state:\"dropcraftable\"}}"
             },
             {
               "function": "set_name",

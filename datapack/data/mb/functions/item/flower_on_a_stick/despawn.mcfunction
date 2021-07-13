@@ -2,14 +2,10 @@
 # Description: Bee Mount despawn
 ############################################################
 
-# Technical
 scoreboard players operation .search UUID.link = @s UUID.link
-execute as @e[type=pig,tag=beeMount] if score @s UUID.link = .search UUID.link run data merge entity @s {Saddle:0b}
-execute as @e[type=pig,tag=beeMount] if score @s UUID.link = .search UUID.link run kill @s
-execute as @e[type=armor_stand,tag=beeMountRoot] if score @s UUID.link = .search UUID.link run kill @s
+execute as @e[type=pig,tag=mb.flower_on_a_stick.bee_mount.ride] if score @s UUID.link = .search UUID.link run data merge entity @s {Saddle:0b}
+execute as @e[type=pig,tag=mb.flower_on_a_stick.bee_mount.ride] if score @s UUID.link = .search UUID.link run kill @s
+execute as @e[type=armor_stand,tag=mb.flower_on_a_stick.bee_mount.root] if score @s UUID.link = .search UUID.link run kill @s
+scoreboard players set @s mb.floweroas.tog 0
 
-tag @s remove flowerStick
-scoreboard players set @s flowerStick.tog 0
-
-# Effects
-playsound mb:item.flower_on_a_stick.despawn master @s ~ ~ ~ 1 1 1
+playsound mb:item.flower_on_a_stick.despawn master @a[distance=..16]

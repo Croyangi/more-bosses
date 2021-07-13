@@ -1,5 +1,5 @@
 ############################################################
-# Description: Player killed entity
+# Description: Spirit Blade effects
 ############################################################
 
 effect give @s[predicate=mb:items/spirit_blade/holding] minecraft:regeneration 1 2 true

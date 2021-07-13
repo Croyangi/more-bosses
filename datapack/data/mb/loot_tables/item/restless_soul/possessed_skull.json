@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133011}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133011,mb:{id:\"possessed_skull\", state:\"dropcraftable\"}}"
             },
             {
               "function": "set_name",

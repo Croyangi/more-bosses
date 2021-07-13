@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133005}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133005,mb:{id:\"royal_jello\", state:\"full\"}}"
             },
             {
               "function": "set_name",

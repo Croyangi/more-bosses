@@ -7,14 +7,13 @@ title @s times 20 20 40
 title @s title {"text":"쀁","font":"mb:soulbound","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}
 
 # Teleports to origin
-scoreboard players operation .search UUID.link = @s UUID.link
-execute as @e[type=armor_stand,tag=soulbound.link] if score @s UUID.link = .search UUID.link run tag @s add soulbound.tp
-execute at @e[type=armor_stand,tag=soulbound.tp] run tp @s ~ ~ ~
-kill @e[type=armor_stand,tag=soulbound.tp]
+scoreboard players operation .search mb.soulboun.UUID = @s mb.soulboun.UUID
+execute as @e[type=armor_stand,tag=mb.soulbound.link] if score @s mb.soulboun.UUID = .search mb.soulboun.UUID run tag @s add mb.soulbound.tp
+execute at @e[type=armor_stand,tag=mb.soulbound.tp] run tp @s ~ ~ ~
+kill @e[type=armor_stand,tag=mb.soulbound.tp]
 
-playsound mb:item.potion_of_soulbounding.teleport master @s ~ ~ ~ 1 1 1
+playsound mb:item.potion_of_soulbounding.teleport master @a[distance=..16]
 
 # Technical
-tag @s remove soulbound
-tag @s add soulbound.chunk
+tag @s add mb.soulbound.chunk
 schedule function mb:item/potion_of_soulbounding/forceload_remove 5t append

@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133009}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133009,mb:{id:\"cursed_calcium\"}}"
             },
             {
               "function": "set_name",

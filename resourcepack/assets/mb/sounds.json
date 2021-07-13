@@ -353,5 +353,12 @@
       "mb:mob/impostor/summon_crewmate"
     ],
     "subtitle": "Impostor summons Crewmate"
+
+    },
+      "entity.impostor.spotify_ad": {
+    "sounds": [
+      "mb:mob/impostor/spotify_ad"
+    ],
+    "subtitle": "Impostor takes a break from the ads"
   }
 }

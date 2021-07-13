@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133007}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133007,mb:{id:\"shattered_mirror\", state:\"active\"}}"
             },
             {
               "function": "set_name",

@@ -4,7 +4,7 @@
 
 # Technical
 tag @s add voodooDoll.loop
-scoreboard players operation @s voodoo.cool = item.cooldown MB.dummy1
+scoreboard players operation @s voodoo.cool = item.cooldown mb.dummy1
 
 # Effects
 playsound mb:item.voodoo_doll.used master @s ~ ~ ~ 1 1 1

@@ -2,13 +2,8 @@
 # Description: Used Slimey Spring
 ############################################################
 
-# Technical
-tag @s add slimeySpring
-tag @s add slimeySpringFx
-scoreboard players operation @s slimeSpring.cool = @s MBitemCooldown
-scoreboard players set @s slimeSpring.fx 10
+scoreboard players set @s mb.slimey_s.cool 300
+scoreboard players add @s mb.global_cool 1
 
-execute at @s run function mb:item/slimey_spring/ability
-
-schedule function mb:item/slimey_spring/tick_loop 1t append
-schedule function mb:item/slimey_spring/second_loop 1t append
+execute as @e[type=!#mb:friendly_fire,distance=..10] run data merge entity @s {Motion:[0.0,1.2,0.0]}
+playsound mb:item.slimey_spring.used master @a[distance=..16]

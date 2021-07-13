@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "punishPlayer": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "mb:technical/load"
+    }
+}

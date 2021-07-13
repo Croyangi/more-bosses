@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,CustomModelData:133017}"
+              "tag": "{HideFlags:127,CustomModelData:133017,mb:{id:\"bruce\", state:\"dropcraftable\"}}"
             },
             {
               "function": "set_name",
