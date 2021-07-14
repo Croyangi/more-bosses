@@ -10,9 +10,6 @@
       },
       "model": "mb:item/advancements/root"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133001
@@ -25,9 +22,6 @@
       },
       "model": "mb:item/advancements/coup_detat"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133003
@@ -52,9 +46,6 @@
       },
       "model": "mb:item/advancements/fit_for_a_king"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133007
@@ -91,9 +82,6 @@
       },
       "model": "mb:item/advancements/home_turf"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133013
@@ -118,9 +106,6 @@
       },
       "model": "mb:item/advancements/they_grow_up_so_fast"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133017
@@ -138,6 +123,18 @@
         "custom_model_data": 133019
       },
       "model": "mb:item/advancements/flawless_herobrine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133020
+      },
+      "model": "mb:item/advancements/sussed_out"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133021
+      },
+      "model": "mb:item/advancements/2000_iq"
     }
   ]
 }

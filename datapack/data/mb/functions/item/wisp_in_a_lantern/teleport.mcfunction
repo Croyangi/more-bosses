@@ -2,8 +2,8 @@
 # Description: Wisp in a Lantern teleport tick
 ############################################################
 
-scoreboard players operation .search wisp_lan.UUID = @s wisp_lan.UUID
-execute as @a if score @s wisp_lan.UUID = .search wisp_lan.UUID run tag @s add mb.wisp_in_a_lantern.owner
+scoreboard players operation .search mb.wisp_lan.UUID = @s mb.wisp_lan.UUID
+execute as @a if score @s mb.wisp_lan.UUID = .search mb.wisp_lan.UUID run tag @s add mb.wisp_in_a_lantern.owner
 execute at @a[tag=mb.wisp_in_a_lantern.owner,limit=1] run tp @s ~ ~2 ~
 tag @e remove mb.wisp_in_a_lantern.owner
 

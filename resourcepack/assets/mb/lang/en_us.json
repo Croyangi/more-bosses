@@ -59,6 +59,11 @@
   "advancement.mb.flawless_herobrine.title": "Flawless Herobrine",
   "advancement.mb.flawless_herobrine.description": "Slay the Herobrine without taking damage",
 
+  "advancement.mb.sussed_out.title": "Sussed Out",
+  "advancement.mb.sussed_out.description": "Defeat the Impostor",
+  "advancement.mb.2000_iq.title": "2000 IQ",
+  "advancement.mb.2000_iq.description": "This shouldn't be possible to get",
+
   "chat.mb.king_slime": "King Slime",
   "chat.mb.queen_bee": "Queen Bee",
   "chat.mb.restless_soul": "Restless Soul",
@@ -148,9 +153,29 @@
   "item.mb.spirit_blade.lore": "A blade composed of spirits, dealing powerful blows",
 
   "item.mb.sus_knife": "Sus Knife",
-  "item.mb.sus_knife.lore": "When the impostor is sus!!! ඞ",
+  "item.mb.sus_knife.lore": "When the impostor is sus!!!",
   "item.mb.emergency_meeting": "Emergency Meeting",
   "item.mb.emergency_meeting.lore": "where.",
   "item.mb.amogus": "Amogus",
-  "item.mb.amogus.lore": "Summons Mini Crewmate"
+  "item.mb.amogus.lore": "Summons Mini Crewmate",
+
+  "subtitle.mb.item.loot_bag.used": "Opened Loot Bag",
+  "subtitle.mb.item.potion_of_soulbounding.used": "Drank Potion of Soulbounding",
+  "subtitle.mb.item.potion_of_soulbounding.teleport": "Player teleports",
+  "subtitle.mb.item.pollinator.used": "Used Pollinator",
+  "subtitle.mb.item.royal_jello.used": "Used Royal Jello",
+  "subtitle.mb.item.royal_jello.prince_slime.bounce": "Prince Slime boings",
+  "subtitle.mb.item.slimey_spring.used": "Used Slimey Spring",
+  "subtitle.mb.item.soul_leech.used": "Used Soul Leech",
+  "subtitle.mb.item.etherealm.used": "Used Etherealm",
+  "subtitle.mb.item.boing_boots.used": "Boing Boots boing",
+  "subtitle.mb.item.flower_on_a_stick.used": "Used Flower on a Stick",
+  "subtitle.mb.item.flower_on_a_stick.despawn": "Bee Mount despawns",
+  "subtitle.mb.item.hive_rattle.used": "Used Hive Rattle",
+  "subtitle.mb.item.wisp_in_a_lantern.used": "Used Wisp in a Lantern",
+  "subtitle.mb.item.blink.used": "Used Blink",
+  "subtitle.mb.item.staff_of_smiting.despawn": "Used Staff of Smiting",
+  "subtitle.mb.item.voodoo_doll.used": "Used Voodoo Doll",
+  "subtitle.mb.item.emergency_meeting.used": "Used Emergency Meeting",
+  "subtitle.mb.item.amogus.used": "Used Amogus"
 }

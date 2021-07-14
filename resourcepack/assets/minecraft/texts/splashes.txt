@@ -3,7 +3,7 @@ Updates always... maybe on time...
 Why is the Dev Team so cool?
 Thanks Jely!
 You don't even look at these...
-/function mb:boss/secret
+/function mb:boss/impostor/technical/summon
 mAkE iT dRoP fOoD
 phallic jelly object
 Cro i’m busy I can’t multiplayer test
@@ -22,3 +22,4 @@ Very  irritating!
 Puny cat!
 Dropcrafting :dread:
 Blame Mojang!
+Completely reworked once again!

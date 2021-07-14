@@ -16,9 +16,6 @@
       },
       "model": "mb:item/king_slime/model/crown_cracked"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133002
@@ -85,9 +82,6 @@
       },
       "model": "mb:item/restless_soul/wisp_in_a_lantern/wispy"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133013
@@ -130,9 +124,6 @@
       },
       "model": "mb:item/queen_bee/bee_mount/cool_bee_mount"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133020
@@ -193,6 +184,12 @@
         "custom_model_data": 133029
       },
       "model": "mb:item/impostor/amogus/drip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133030
+      },
+      "model": "mb:item/king_slime/royal_jello/prince_slime"
     }
   ]
 }

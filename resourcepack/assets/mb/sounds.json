@@ -1,9 +1,21 @@
 {
+    "item.loot_bag.used": {
+    "sounds": [
+      "item/armor/equip_leather1",
+      "item/armor/equip_leather2",
+      "item/armor/equip_leather3",
+      "item/armor/equip_leather4",
+      "item/armor/equip_leather5",
+      "item/armor/equip_leather6"
+    ],
+    "subtitle": "subtitle.mb.item.loot_bag.used"
+
+    },
       "item.potion_of_soulbounding.drink": {
     "sounds": [
       "mob/guardian/elder_death"
     ],
-    "subtitle": "Unbinds soul"
+    "subtitle": "subtitle.mb.item.potion_of_soulbounding.used"
 
     },
       "item.potion_of_soulbounding.teleport": {
@@ -11,7 +23,7 @@
       "mob/endermen/portal",
       "mob/endermen/portal2"
     ],
-    "subtitle": "Rebinds soul"
+    "subtitle": "subtitle.mb.item.potion_of_soulbounding.teleport"
 
     },
       "item.pollinator.used": {
@@ -20,7 +32,7 @@
       "block/enchantment_table/enchant2",
       "block/enchantment_table/enchant3"
     ],
-    "subtitle": "Uses Pollinator"
+    "subtitle": "subtitle.mb.item.pollinator.used"
 
     },
       "item.royal_jello.used": {
@@ -30,7 +42,17 @@
       "mob/slime/big3",
       "mob/slime/big4"
     ],
-    "subtitle": "Uses Royal Jello"
+    "subtitle": "subtitle.mb.item.royal_jello.used"
+
+    },
+      "item.royal_jello.prince_slime.bounce": {
+    "sounds": [
+      "mob/slime/big1",
+      "mob/slime/big2",
+      "mob/slime/big3",
+      "mob/slime/big4"
+    ],
+    "subtitle": "subtitle.mb.item.royal_jello.prince_slime.bounce"
 
     },
       "item.slimey_spring.used": {
@@ -47,14 +69,14 @@
       "pitch": 1.3
     }
     ],
-    "subtitle": "Uses Slimey Spring"
+    "subtitle": "subtitle.mb.item.slimey_spring.used"
 
     },
       "item.soul_leech.used": {
     "sounds": [
       "mob/guardian/guardian_death"
     ],
-    "subtitle": "Uses Soul Leech"
+    "subtitle": "subtitle.mb.item.soul_leech.used"
 
     },
       "item.etherealm.used": {
@@ -64,7 +86,7 @@
       "pitch": 1.3
     }
     ],
-    "subtitle": "Uses Etherealm"
+    "subtitle": "subtitle.mb.item.etherealm.used"
 
     },
       "item.boing_boots.used": {
@@ -74,7 +96,7 @@
       "mob/slime/big3",
       "mob/slime/big4"
     ],
-    "subtitle": "Boing Boots boing"
+    "subtitle": "subtitle.mb.item.boing_boots.used"
 
     },
       "item.flower_on_a_stick.used": {
@@ -85,7 +107,7 @@
       "block/honeyblock/break4",
       "block/honeyblock/break5"
     ],
-    "subtitle": "Uses Flower on a Stick"
+    "subtitle": "subtitle.mb.item.flower_on_a_stick.used"
     },
       "item.flower_on_a_stick.despawn": {
     "sounds": [
@@ -95,43 +117,14 @@
       "block/honeyblock/break4",
       "block/honeyblock/break5"
     ],
-    "subtitle": "Bee Mount despawns"
+    "subtitle": "subtitle.mb.item.flower_on_a_stick.despawn"
 
     },
       "item.hive_rattle.used": {
     "sounds": [
       "block/beehive/enter"
     ],
-    "subtitle": "Uses Hive Rattle"
-
-    },
-      "item.spirit_blade.ignite": {
-    "sounds": [{
-      "name": "mob/ghast/fireball1",
-      "pitch": 1.3
-    },
-    {
-      "name": "mob/ghast/fireball2",
-      "pitch": 1.3
-    },
-    {
-      "name": "mob/ghast/fireball3",
-      "pitch": 1.3
-    },
-    {
-      "name": "mob/ghast/fireball4",
-      "pitch": 1.3
-    }
-    ],
-    "subtitle": "Spirit Blade ignites"
-    },
-      "item.spirit_blade.extinguish": {
-    "sounds": [{
-      "name": "random/fizz",
-      "pitch": 1.3
-    }
-    ],
-    "subtitle": "Spirit Blade extinguishes"
+    "subtitle": "subtitle.mb.item.hive_rattle.used"
 
     },
       "item.wisp_in_a_lantern.used": {
@@ -143,7 +136,7 @@
       "block/lantern/place5",
       "block/lantern/place6"
     ],
-    "subtitle": "Uses Wisp in a Lantern"
+    "subtitle": "subtitle.mb.item.wisp_in_a_lantern.used"
 
     },
       "item.blink.teleport": {
@@ -151,7 +144,7 @@
       "mob/endermen/portal",
       "mob/endermen/portal2"
     ],
-    "subtitle": "Player blinks"
+    "subtitle": "subtitle.mb.item.blink.used"
 
     },
       "item.staff_of_smiting.used": {
@@ -164,7 +157,7 @@
       "pitch": 1.3
     }
     ],
-    "subtitle": "Used Staff of Smiting"
+    "subtitle": "subtitle.mb.item.staff_of_smiting.used"
 
     },
       "item.voodoo_doll.used": {
@@ -177,21 +170,21 @@
       "pitch": 1.3
     }
     ],
-    "subtitle": "Uses Voodoo Doll"
+    "subtitle": "subtitle.mb.item.voodoo_doll.used"
 
     },
       "item.emergency_meeting.used": {
     "sounds": [
       "mb:item/impostor/emergency_meeting"
     ],
-    "subtitle": "Used Emergency Meeting"
+    "subtitle": "subtitle.mb.item.emergency_meeting.used"
 
     },
       "item.amogus.used": {
     "sounds": [
       "mb:item/impostor/amogus"
     ],
-    "subtitle": "Used Amogus"
+    "subtitle": "subtitle.mb.amogus.used"
 
     },
       "entity.boss.spawns": {

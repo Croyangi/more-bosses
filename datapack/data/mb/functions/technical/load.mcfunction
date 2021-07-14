@@ -36,12 +36,6 @@ scoreboard players set @a MB.join.world 0
 scoreboard objectives add MB.rng.input dummy
 scoreboard objectives add MB.rng.output dummy
 
-# Drop craft
-scoreboard objectives add MB.itemnbt dummy
-scoreboard players set @a MB.itemnbt 0
-
-# Boss scoreboards
-
 # Item scoreboards
 scoreboard objectives add MB.used_bow minecraft.used:minecraft.bow
 scoreboard objectives add MB.coas minecraft.used:minecraft.carrot_on_a_stick
@@ -66,20 +60,20 @@ scoreboard players set @a mb.ethereal.cool 0
 scoreboard objectives add mb.pollinat.cool dummy
 scoreboard players set @a mb.pollinat.cool 0
 
-scoreboard objectives add hive_rattle.UUID dummy
-scoreboard players set @a hive_rattle.UUID 0
-scoreboard objectives add hive_rattle.tog dummy
-scoreboard players set @a hive_rattle.tog 0
+scoreboard objectives add mb.hive_rat.UUID dummy
+scoreboard players set @a mb.hive_rat.UUID 0
+scoreboard objectives add mb.hive_rat.tog dummy
+scoreboard players set @a mb.hive_rat.tog 0
 
 scoreboard objectives add mb.soul_lee.cool dummy
 scoreboard players set @a mb.soul_lee.cool 0
 scoreboard objectives add mb.soul_lee.time dummy
 scoreboard players set @a mb.soul_lee.time 0
 
-scoreboard objectives add wisp_lan.UUID dummy
-scoreboard players set @a wisp_lan.UUID 0
-scoreboard objectives add wisp_lan.tog dummy
-scoreboard players set @a wisp_lan.tog 0
+scoreboard objectives add mb.wisp_lan.UUID dummy
+scoreboard players set @a mb.wisp_lan.UUID 0
+scoreboard objectives add mb.wisp_lan.tog dummy
+scoreboard players set @a mb.wisp_lan.tog 0
 
 scoreboard objectives add mb.soulboun.time dummy
 scoreboard players set @a mb.soulboun.time 0
@@ -88,13 +82,6 @@ scoreboard players set @a mb.soulboun.UUID 0
 
 scoreboard objectives add mb.floweroas.tog dummy
 scoreboard players set @a mb.floweroas.tog 0
-
-scoreboard objectives add spiritBlade.cool dummy
-scoreboard players set @a spiritBlade.cool 0
-
-scoreboard objectives add eyeSpy.cool dummy
-scoreboard players set @a eyeSpy.cool 0
-scoreboard objectives add eyeSpy.stun dummy
 
 scoreboard objectives add blink.cool dummy
 scoreboard players set @a blink.cool 0

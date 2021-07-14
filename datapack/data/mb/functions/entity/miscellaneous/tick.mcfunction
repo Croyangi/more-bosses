@@ -1,5 +1,5 @@
 ############################################################
-# Description: Entity tick function
+# Description: Wandering Trader tick function
 ############################################################
 
 # Royal Jello
