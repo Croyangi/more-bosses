@@ -13,7 +13,7 @@ scoreboard players set @a MBbossHealth 0
 # Effects
 function mb:boss/herobrine/technical/dialogue/death/rng
 tellraw @a [{"text":"Herobrine ","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"has been defeated!","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
-playsound mb:entity.boss.dies master @a ~ ~ ~ 1 1 1
+playsound mb:entity.boss.death master @a ~ ~ ~ 1 1 1
 
 # Speedrun Timer
 execute as @a[scores={mb.speedrunTimer=1}] run tellraw @s [{"text":"You've defeated the ","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"Restless Soul ","color":"dark_purple","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"in ","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"name":"seconds","objective":"MB.timer"},"color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":".","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"name":"miliseconds","objective":"MB.timer"},"color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"s!","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
@@ -25,7 +25,7 @@ execute as @a[advancements={mb:technical/player_hurt=false}] run advancement gra
 function mb:boss/technical/boss_advancements
 
 # Boss loot
-execute at @a run function mb:commands/summon/herobrine/herobrine_loot_bag
+execute at @a run function mb:commands/summon/herobrine/loot_bag
 
 # Reset
 function mb:boss/herobrine/technical/reset/reset

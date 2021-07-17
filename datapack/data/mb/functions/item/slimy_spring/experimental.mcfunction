@@ -1,5 +1,5 @@
 ############################################################
-# Description: Calculates Slimey Spring cooldown
+# Description: Calculates slimy Spring cooldown
 ############################################################
 
 # Experimental cooldown method, measures the time between initial and last click, subtracting it from the cooldown
@@ -11,5 +11,5 @@
 #scoreboard players operation @s mb.temp = @s test
 #scoreboard players operation current.time mb.temp = @s mb.temp
 #execute store result score time.between mb.temp run scoreboard players operation current.time mb.temp -= last.time mb.temp
-#scoreboard players operation @s mb.slimey_s.cool -= time.between mb.temp
-#execute as @s[scores={mb.slimey_s.cool=..0}] run function mb:item/slimey_spring/used
+#scoreboard players operation @s mb.slimy_s.cool -= time.between mb.temp
+#execute as @s[scores={mb.slimy_s.cool=..0}] run function mb:item/slimy_spring/used

@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "mb:item/slimey_spring/used"
+        "function": "mb:item/slimy_spring/used"
     }
 }

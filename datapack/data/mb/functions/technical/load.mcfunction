@@ -20,6 +20,8 @@ scoreboard players set miliseconds MB.timer 0
 scoreboard objectives add mb.dummy1 dummy
 scoreboard players set @a mb.dummy1 0
 
+scoreboard players set mb.const.1 mb.dummy1 0
+
 # Player scoreboards
 scoreboard objectives add MB.deaths deathCount
 scoreboard players set @a MB.deaths 0
@@ -43,8 +45,8 @@ scoreboard objectives add MB.coas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add mb.global_cool dummy
 scoreboard players set @a mb.global_cool 0
 
-scoreboard objectives add mb.slimey_s.cool dummy
-scoreboard players set @a mb.slimey_s.cool 0
+scoreboard objectives add mb.slimy_s.cool dummy
+scoreboard players set @a mb.slimy_s.cool 0
 
 scoreboard objectives add royal_jello.UUID dummy
 scoreboard players set @a royal_jello.UUID 0

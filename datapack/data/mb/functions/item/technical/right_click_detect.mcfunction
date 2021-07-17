@@ -10,8 +10,8 @@ scoreboard players set @s MB.coas 0
 # Royal Crown
 execute as @s[predicate=mb:right_click/royal_crown] at @s run function mb:item/royal_crown/used
 
-# Slimey Spring
-execute as @s[predicate=mb:right_click/slimey_spring] at @s run function mb:item/slimey_spring/calculate
+# slimy Spring
+execute as @s[predicate=mb:right_click/slimy_spring] at @s run function mb:item/slimy_spring/calculate
 
 # Royal Jello
 execute as @s[predicate=mb:right_click/royal_jello] at @s run function mb:item/royal_jello/used

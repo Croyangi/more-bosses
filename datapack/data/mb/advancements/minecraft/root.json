@@ -48,16 +48,9 @@
           "font": "minecraft:default",
           "extra": [
         {
-          "text": "\n\ue002",
-          "color": "#AAAAAA",
-          "font": "minecraft:default",
-          "extra": [
-        {
-          "text": " CreeperMagnet_\n",
+          "text": "- CreeperMagnet_\n",
           "color": "#AAAAAA",
           "font": "minecraft:default"
-        }
-        ]
         }
         ]
         }

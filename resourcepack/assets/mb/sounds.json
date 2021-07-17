@@ -55,7 +55,7 @@
     "subtitle": "subtitle.mb.item.royal_jello.prince_slime.bounce"
 
     },
-      "item.slimey_spring.used": {
+      "item.slimy_spring.used": {
     "sounds": [{
       "name": "item/trident/riptide1",
       "pitch": 1.3
@@ -69,7 +69,7 @@
       "pitch": 1.3
     }
     ],
-    "subtitle": "subtitle.mb.item.slimey_spring.used"
+    "subtitle": "subtitle.mb.item.slimy_spring.used"
 
     },
       "item.soul_leech.used": {
@@ -187,24 +187,24 @@
     "subtitle": "subtitle.mb.amogus.used"
 
     },
-      "entity.boss.spawns": {
+      "entity.boss.summon": {
     "sounds": [
       "mob/enderdragon/growl1",
       "mob/enderdragon/growl2",
       "mob/enderdragon/growl3",
       "mob/enderdragon/growl4"
     ],
-    "subtitle": "Boss spawns"
+    "subtitle": "subtitle.mb.boss.summon"
     
     },
-      "entity.boss.dies": {
+      "entity.boss.death": {
     "sounds": [
       "mob/enderdragon/growl1",
       "mob/enderdragon/growl2",
       "mob/enderdragon/growl3",
       "mob/enderdragon/growl4"
     ],
-    "subtitle": "Boss dies"
+    "subtitle": "subtitle.mb.boss.death"
 
     },
       "entity.boss.fail": {
@@ -214,7 +214,7 @@
       "mob/enderdragon/growl3",
       "mob/enderdragon/growl4"
     ],
-    "subtitle": "Player fails bossfight"
+    "subtitle": "subtitle.mb.boss.fail"
 
 
 
@@ -226,7 +226,7 @@
       "mob/slime/big3",
       "mob/slime/big4"
     ],
-    "subtitle": "King Slime dies"
+    "subtitle": "subtitle.mb.entity.king_slime.death"
 
 
 
@@ -237,7 +237,7 @@
       "mob/bee/hurt2",
       "mob/bee/hurt3"
     ],
-    "subtitle": "Queen Bee hurts"
+    "subtitle": "subtitle.mb.entity.queen_bee.hurt"
 
     },
       "entity.queen_bee.death": {
@@ -245,7 +245,7 @@
       "mob/bee/death1",
       "mob/bee/death2"
     ],
-    "subtitle": "Queen Bee dies"
+    "subtitle": "subtitle.mb.entity.queen_bee.death"
 
     },
       "entity.bee_drone.death": {
@@ -255,7 +255,7 @@
       "random/explode3",
       "random/explode4"
     ],
-    "subtitle": "Bee Drone explodes"
+    "subtitle": "subtitle.mb.entity.bee_drone.death"
 
     },
       "entity.stinger.explode": {
@@ -265,7 +265,7 @@
       "random/explode3",
       "random/explode4"
     ],
-    "subtitle": "Stinger explodes"
+    "subtitle": "subtitle.mb.entity.stinger.death"
 
 
 
@@ -277,7 +277,7 @@
       "mob/wither_skeleton/hurt3",
       "mob/wither_skeleton/hurt4"
     ],
-    "subtitle": "Restless Soul hurts"
+    "subtitle": "subtitle.mb.entity.restless_soul.hurt"
 
     },
       "entity.restless_soul.cast": {
@@ -287,7 +287,7 @@
       "mob/wither_skeleton/step3",
       "mob/wither_skeleton/step4"
     ],
-    "subtitle": "Restless Soul casts spell"
+    "subtitle": "subtitle.mb.entity.restless_soul.cast"
 
     },
       "entity.restless_soul.death": {
@@ -298,7 +298,7 @@
       "ambient/nether/soulsand_valley/voices4",
       "ambient/nether/soulsand_valley/voices5"
     ],
-    "subtitle": "Restless Soul dies"
+    "subtitle": "subtitle.mb.entity.restless_soul.death"
 
     },
       "block.place.bone_barricade": {
@@ -308,21 +308,21 @@
       "block/bone_block/break3",
       "block/bone_block/break4"
     ],
-    "subtitle": "Bone Barricade places"
+    "subtitle": "subtitle.mb.block.bone_barricade"
 
     },
-      "entity.soul_storm.spawn": {
+      "entity.soul_storm.summon": {
     "sounds": [
       "mob/guardian/guardian_death"
     ],
-    "subtitle": "Soul Storm spawns"
+    "subtitle": "subtitle.mb.entity.soul_storm.summon"
 
     },
       "entity.soul_dragon.spawn": {
     "sounds": [
       "mob/guardian/elder_death"
     ],
-    "subtitle": "Soul Dragon spawns"
+    "subtitle": "subtitle.mb.entity.soul_dragon.summon"
 
 
 
@@ -331,27 +331,27 @@
     "sounds": [
       "mb:secret"
     ],
-    "subtitle": "Player gets rolled lmao gottem"
+    "subtitle": "subtitle.mb.music.secret"
 
     },
       "entity.impostor.summon": {
     "sounds": [
       "mb:mob/impostor/summon"
     ],
-    "subtitle": "When the impostor is sus!"
+    "subtitle": "subtitle.mb.entity.impostor.summon"
 
     },
-      "entity.impostor.summon_crewmate": {
+      "entity.impostor.cast": {
     "sounds": [
       "mb:mob/impostor/summon_crewmate"
     ],
-    "subtitle": "Impostor summons Crewmate"
+    "subtitle": "subtitle.mb.entity.impostor.cast"
 
     },
       "entity.impostor.spotify_ad": {
     "sounds": [
       "mb:mob/impostor/spotify_ad"
     ],
-    "subtitle": "Impostor takes a break from the ads"
+    "subtitle": "subtitle.mb.entity.impostor.spotify"
   }
 }

@@ -19,7 +19,7 @@ execute at @s[scores={MB.difficulty=1}] run summon wandering_trader ~ ~ ~ {Motio
 
 # Effects
 tellraw @a [{"text":"Herobrine ","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"has awoken!","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
-playsound mb:entity.boss.spawns master @a ~ ~ ~ 1 1 1
+playsound mb:entity.boss.summon master @a ~ ~ ~ 1 1 1
 #time set night
 
 # Preparing boss fight

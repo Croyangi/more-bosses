@@ -3,7 +3,7 @@
 ############################################################
 
 execute at @e[type=husk,tag=mb.impostor] if entity @a[distance=..30,gamemode=!creative,gamemode=!spectator] run function mb:boss/impostor/normal_mode/attacks/2nd_phase_summon
-playsound mb:entity.impostor.summon_crewmate master @a[distance=..16]
+playsound mb:entity.impostor.cast master @a[distance=..16]
 
 stopsound @a master
 title @a times 0 560 20

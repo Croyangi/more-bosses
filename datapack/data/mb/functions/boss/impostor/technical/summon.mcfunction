@@ -21,7 +21,7 @@ execute at @s[scores={MB.difficulty=0}] run summon husk ~ ~ ~ {PersistenceRequir
 execute at @s[scores={MB.difficulty=1}] run summon husk ~ ~ ~ {PersistenceRequired:1b,Silent:1b,DeathLootTable:"mb:entities/impostor/death",Health:1000f,IsBaby:0b,CanBreakDoors:1b,Tags:["mb.impostor","mb.impostor.cleanup"],CustomName:'{"text":"Impostor","color":"red"}',ArmorItems:[{},{},{},{id:"minecraft:leather_horse_armor",Count:1b,tag:{CustomModelData:133010}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],ActiveEffects:[{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:1000},{Name:"generic.follow_range",Base:100},{Name:"generic.knockback_resistance",Base:1.0},{Name:"generic.movement_speed",Base:0.5},{Name:"generic.attack_damage",Base:40}]}
 
 tellraw @a [{"translate":"chat.mb.impostor","color":"red","bold":true},{"text":" "},{"translate":"chat.mb.boss.summon","color":"white"}]
-playsound mb:entity.boss.spawns master @a ~ ~ ~ 1 1 1
+playsound mb:entity.boss.summon master @a ~ ~ ~ 1 1 1
 
 execute as @s[scores={MB.difficulty=0}] run function mb:boss/impostor/normal_mode/tick
 execute as @s[scores={MB.difficulty=1}] run function mb:boss/impostor/master_mode/tick

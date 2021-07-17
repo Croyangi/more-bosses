@@ -190,6 +190,12 @@
         "custom_model_data": 133030
       },
       "model": "mb:item/king_slime/royal_jello/prince_slime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133031
+      },
+      "model": "mb:item/king_slime/model/marker"
     }
   ]
 }
