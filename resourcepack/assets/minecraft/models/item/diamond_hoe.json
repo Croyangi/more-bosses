@@ -196,6 +196,12 @@
         "custom_model_data": 133031
       },
       "model": "mb:item/king_slime/model/marker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133032
+      },
+      "model": "mb:item/herobrine/model/static_pool"
     }
   ]
 }

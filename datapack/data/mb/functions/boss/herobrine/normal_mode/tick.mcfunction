@@ -1,19 +1,19 @@
 ############################################################
-# Description: Tick active
+# Description: Runs when boss is active
 ############################################################
 
-# Smite markers
-scoreboard players remove @e[type=armor_stand,tag=smite.marker,tag=smite.used] MBbossDummy 1
-execute at @e[type=armor_stand,tag=smite.marker,scores={MBbossDummy=..0}] run summon lightning_bolt
-kill @e[type=armor_stand,tag=smite.marker,scores={MBbossDummy=..0}]
+# Clears unnecessary entities
+execute store result score herobrine.minion.count mb.dummy1 if entity @e[tag=mb.herobrine.minion]
+execute if score herobrine.minion.count mb.dummy1 matches 15.. as @e[tag=mb.herobrine.minion,limit=1,sort=random] run function mb:boss/herobrine/technical/despawn_minions
+execute at @e[tag=mb.herobrine] as @e[tag=mb.herobrine.minion,distance=30..,limit=1,sort=furthest] run function mb:boss/herobrine/technical/despawn_minions
 
-# Spike markers
-execute as @e[type=armor_stand,tag=spike.tp,nbt={OnGround:1b}] at @s run function mb:boss/herobrine/normal_mode/attacks/spike_tag
-execute as @e[type=armor_stand,tag=spike.tp,scores={MBbossDummy=1..}] at @s run tp @s ~ ~.2 ~
-scoreboard players remove @e[type=armor_stand,tag=spike.tp,tag=spike.used,scores={MBbossDummy=1..}] MBbossDummy 1
+# Static Pools
+execute as @a at @s if entity @e[type=armor_stand,tag=mb.static_pool,distance=..1.5] if entity @s[nbt={OnGround:1b}] run function mb:boss/herobrine/normal_mode/attacks/static_pool/effect
 
-# Second phase initiate
-execute as @s[scores={MBbossHealth=1..199}] run advancement grant @s only mb:boss/herobrine/normal_mode/second_phase
+# Static Hearts
+execute at @e[type=wandering_trader,tag=mb.herobrine] as @a[distance=..30] run function mb:boss/herobrine/normal_mode/attacks/static_hearts
 
-# Third phase initiate
-execute as @s[scores={MBbossHealth=1..49}] run advancement grant @s only mb:boss/herobrine/normal_mode/third_phase
+# Smite
+execute as @e[type=armor_stand,tag=mb.smite_marker] at @s run function mb:boss/herobrine/normal_mode/attacks/smite/tick
+
+schedule function mb:boss/herobrine/normal_mode/tick 1t append

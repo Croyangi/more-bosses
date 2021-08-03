@@ -27,9 +27,6 @@
       },
       "model": "mb:item/restless_soul/model/necromance"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133004
@@ -42,9 +39,6 @@
       },
       "model": "mb:item/queen_bee/model/idle_angry"
     },
-
-
-
     {
       "predicate": {
         "custom_model_data": 133006
@@ -68,16 +62,36 @@
         "custom_model_data": 133009
       },
       "model": "mb:item/herobrine/model/hands_raised"
-
-
-
     },
     {
       "predicate": {
         "custom_model_data": 133010
       },
       "model": "mb:item/impostor/model/impostor"
-
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133011
+      },
+      "model": "mb:item/restless_soul/model/angry/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133012
+      },
+      "model": "mb:item/restless_soul/model/angry/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133013
+      },
+      "model": "mb:item/restless_soul/model/angry/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 133014
+      },
+      "model": "mb:item/restless_soul/model/angry/necromance"
     }
   ]
 }

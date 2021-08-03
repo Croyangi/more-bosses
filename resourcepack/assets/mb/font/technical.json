@@ -1,0 +1,12 @@
+{
+  "providers": [{
+      "type": "bitmap",
+      "file": "mb:item/font/empty_space",
+      "ascent": -32768,
+      "height": -6767,
+      "chars": [
+        "\uc010"
+        ]
+    }
+  ]
+}

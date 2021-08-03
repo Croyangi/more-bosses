@@ -1,8 +1,8 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{mb:{id:\"possessed_skull\"}}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "nbt": "{Item:{tag:{mb:{id:possessed_skull}}}}"
   }
-  
+}

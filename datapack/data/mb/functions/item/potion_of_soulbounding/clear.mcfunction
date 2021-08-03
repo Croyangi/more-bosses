@@ -12,6 +12,7 @@ execute as @e[type=armor_stand,tag=mb.soulbound.link] if score @s mb.soulboun.UU
 execute at @e[type=armor_stand,tag=mb.soulbound.tp] run tp @s ~ ~ ~
 kill @e[type=armor_stand,tag=mb.soulbound.tp]
 
+tag @s remove mb.soulbound.tagged
 playsound mb:item.potion_of_soulbounding.teleport master @a[distance=..16]
 
 # Technical

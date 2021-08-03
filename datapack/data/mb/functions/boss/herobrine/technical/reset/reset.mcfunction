@@ -1,16 +1,15 @@
 ############################################################
-# Description: Resets boss fight
+# Description: Controls all reset functions
 ############################################################
 
 function mb:boss/herobrine/technical/reset/cleanup
-schedule function mb:boss/herobrine/technical/reset/schedule_clear 1t append
+function mb:boss/herobrine/technical/reset/schedule_clear
 function mb:boss/technical/speedrun_timer/reset
 
-bossbar set minecraft:herobrine visible false
-time set day
+bossbar set mb:herobrine visible false
 
-advancement revoke @a only mb:boss/herobrine/summon
-advancement revoke @a only mb:boss/herobrine/normal_mode/second_phase
-advancement revoke @a only mb:boss/herobrine/normal_mode/third_phase
-advancement revoke @a only mb:boss/herobrine/master_mode/second_phase
-advancement revoke @a only mb:boss/herobrine/master_mode/third_phase
+advancement revoke @a only mb:technical/boss/herobrine/normal_second_phase
+advancement revoke @a only mb:technical/boss/herobrine/master_second_phase
+advancement revoke @a only mb:technical/boss/herobrine/hurt_herobrine
+
+tag @a remove mb.herobrine.active

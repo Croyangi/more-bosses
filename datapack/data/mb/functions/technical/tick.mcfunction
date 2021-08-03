@@ -4,3 +4,5 @@
 
 # Main player tick
 execute as @a at @s run function mb:entity/player/tick
+
+function mb:entity/tick

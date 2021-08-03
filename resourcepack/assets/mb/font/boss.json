@@ -1,7 +1,7 @@
 {
   "providers": [{
       "type": "bitmap",
-      "file": "mb:item/king_slime/normal_bossbar.png",
+      "file": "mb:item/king_slime/model/normal_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -10,7 +10,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/king_slime/master_bossbar.png",
+      "file": "mb:item/king_slime/model/master_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -22,7 +22,7 @@
 
    {
       "type": "bitmap",
-      "file": "mb:item/restless_soul/normal_bossbar.png",
+      "file": "mb:item/restless_soul/model/normal_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -31,7 +31,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/restless_soul/master_bossbar.png",
+      "file": "mb:item/restless_soul/model/master_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -43,7 +43,7 @@
 
    {
       "type": "bitmap",
-      "file": "mb:item/queen_bee/normal_bossbar.png",
+      "file": "mb:item/queen_bee/model/normal_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -52,7 +52,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/queen_bee/master_bossbar.png",
+      "file": "mb:item/queen_bee/model/master_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -64,7 +64,7 @@
 
    {
       "type": "bitmap",
-      "file": "mb:item/herobrine/normal_bossbar.png",
+      "file": "mb:item/herobrine/model/normal_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -73,7 +73,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/herobrine/master_bossbar.png",
+      "file": "mb:item/herobrine/model/master_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -82,9 +82,9 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/restless_soul/spirit_blade.png",
-      "ascent": 115,
-      "height": 240,
+      "file": "mb:item/herobrine/model/static_overlay.png",
+      "ascent": 65,
+      "height": 135,
       "chars": [
         "\ub009"
       ]
@@ -94,7 +94,7 @@
 
    {
       "type": "bitmap",
-      "file": "mb:item/impostor/normal_bossbar.png",
+      "file": "mb:item/impostor/model/normal_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -103,7 +103,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/impostor/master_bossbar.png",
+      "file": "mb:item/impostor/model/master_bossbar.png",
       "ascent": 10,
       "height": 50,
       "chars": [
@@ -112,7 +112,7 @@
    },
    {
       "type": "bitmap",
-      "file": "mb:item/impostor/sus_overlay.png",
+      "file": "mb:item/impostor/model/sus_overlay.png",
       "ascent": 75,
       "height": 150,
       "chars": [
@@ -121,11 +121,29 @@
     },
     {
       "type": "bitmap",
-      "file": "mb:item/impostor/spotify_ad.png",
+      "file": "mb:item/impostor/model/spotify_ad.png",
       "ascent": 115,
       "height": 240,
       "chars": [
         "\ub013"
+        ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mb:item/herobrine/model/static_hearts.png",
+      "ascent": -26,
+      "height": 9.5,
+      "chars": [
+        "\ub014"
+        ]
+    },
+    {
+      "type": "bitmap",
+      "file": "mb:item/herobrine/model/static_hearts_space.png",
+      "ascent": -26,
+      "height": 100,
+      "chars": [
+        "\ub015"
         ]
     }
   ]

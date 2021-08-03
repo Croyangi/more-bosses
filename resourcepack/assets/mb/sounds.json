@@ -324,15 +324,8 @@
     ],
     "subtitle": "subtitle.mb.entity.soul_dragon.summon"
 
-
-
-    },
-      "music.secret": {
-    "sounds": [
-      "mb:secret"
-    ],
-    "subtitle": "subtitle.mb.music.secret"
-
+    
+    
     },
       "entity.impostor.summon": {
     "sounds": [
@@ -353,5 +346,12 @@
       "mb:mob/impostor/spotify_ad"
     ],
     "subtitle": "subtitle.mb.entity.impostor.spotify"
+
+    },
+      "music.secret": {
+    "sounds": [
+      "mb:secret"
+    ],
+    "subtitle": "subtitle.mb.music.secret"
   }
 }

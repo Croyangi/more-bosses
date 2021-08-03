@@ -9,6 +9,7 @@ title @s actionbar [{"text":"쀁","font":"mb:soulbound","bold":false,"italic":fa
 forceload add ~ ~
 scoreboard players set @s mb.soulboun.time 100
 playsound mb:item.potion_of_soulbounding.drink master @a[distance=..16]
+tag @s add mb.soulbound.tagged
 
 execute at @s run function mb:item/potion_of_soulbounding/link
 

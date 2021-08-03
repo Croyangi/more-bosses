@@ -1,8 +1,8 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{mb:{id:\"mysterious_doll\"}}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:item",
+    "nbt": "{Item:{tag:{mb:{id:mysterious_doll}}}}"
   }
-  
+}

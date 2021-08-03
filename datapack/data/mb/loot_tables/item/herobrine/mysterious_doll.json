@@ -14,7 +14,7 @@
             },
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133027}"
+              "tag": "{HideFlags:127,Unbreakable:1b,CustomModelData:133027,mb:{id:\"mysterious_doll\", state:\"dropcraftable\"}}"
             },
             {
               "function": "set_name",
