@@ -3,7 +3,7 @@
 ############################################################
 
 # Right click detection
-execute as @s[scores={MB.coas=1..}] run function mb:item/technical/right_click_detect
+execute as @s[scores={mb.coas=1..}] run function mb:item/technical/right_click_detect
 
 # Bumbrella
 effect give @s[predicate=mb:items/bumbrella/holding,predicate=!mb:has_slow_falling] slow_falling 1 0 true

@@ -3,12 +3,12 @@
 ############################################################
 
 # Settings scoreboards
-scoreboard objectives add MB.settings trigger
-scoreboard players set @a MB.settings 0
-scoreboard players enable @a MB.settings
+scoreboard objectives add mb.settings trigger
+scoreboard players set @a mb.settings 0
+scoreboard players enable @a mb.settings
 
-scoreboard objectives add MB.difficulty dummy
-scoreboard players set @a MB.difficulty 0
+scoreboard objectives add mb.difficulty dummy
+scoreboard players set @a mb.difficulty 0
 
 scoreboard objectives add mb.speedrunTimer dummy
 scoreboard players set @a mb.speedrunTimer 0
@@ -23,24 +23,24 @@ scoreboard players set @a mb.dummy1 0
 scoreboard players set mb.const.1 mb.dummy1 0
 
 # Player scoreboards
-scoreboard objectives add MB.deaths deathCount
-scoreboard players set @a MB.deaths 0
-scoreboard players set total.deaths MB.deaths 0
+scoreboard objectives add mb.deaths deathCount
+scoreboard players set @a mb.deaths 0
+scoreboard players set total.deaths mb.deaths 0
 
 scoreboard players set player.count mb.dummy1 0
 
 scoreboard objectives add MBjump minecraft.custom:minecraft.jump
 
-scoreboard objectives add MB.join.world minecraft.custom:minecraft.leave_game
-scoreboard players set @a MB.join.world 0
+scoreboard objectives add mb.join.world minecraft.custom:minecraft.leave_game
+scoreboard players set @a mb.join.world 0
 
 # RNG generate
-scoreboard objectives add MB.rng.input dummy
+scoreboard objectives add mb.rng.input dummy
 scoreboard objectives add MB.rng.output dummy
 
 # Item scoreboards
-scoreboard objectives add MB.used_bow minecraft.used:minecraft.bow
-scoreboard objectives add MB.coas minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add mb.used_bow minecraft.used:minecraft.bow
+scoreboard objectives add mb.coas minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add mb.global_cool dummy
 scoreboard players set @a mb.global_cool 0

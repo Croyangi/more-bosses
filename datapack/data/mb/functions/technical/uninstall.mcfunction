@@ -5,24 +5,24 @@
 datapack disable "file/More-Bosses-Datapack"
 
 # Settings scoreboards
-scoreboard objectives remove MB.settings
+scoreboard objectives remove mb.settings
 
-scoreboard objectives remove MB.difficulty
+scoreboard objectives remove mb.difficulty
 
 scoreboard objectives remove mb.speedrunTimer
 scoreboard objectives remove MB.timer
 
 # Player scoreboards
-scoreboard objectives remove MB.deaths
+scoreboard objectives remove mb.deaths
 scoreboard objectives remove MBtotalDeaths
 
 scoreboard objectives remove MBplayers
 
 scoreboard objectives remove MBjump
 
-scoreboard objectives remove MB.join.world
+scoreboard objectives remove mb.join.world
 
-scoreboard objectives remove MB.coas
+scoreboard objectives remove mb.coas
 
 # RNG generate
 scoreboard objectives remove MBrngInput

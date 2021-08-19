@@ -9,10 +9,10 @@ execute store result bossbar mb:kingslime value run scoreboard players get king_
 
 scoreboard players set player.count mb.dummy1 0
 execute as @a run scoreboard players add player.count mb.dummy1 1
-scoreboard players set @a[scores={MB.deaths=2..}] MB.deaths 1
-scoreboard players set total.deaths MB.deaths 0
-scoreboard players operation total.deaths MB.deaths += @a MB.deaths
-execute if score total.deaths MB.deaths >= player.count mb.dummy1 run function mb:boss/king_slime/technical/fail
+scoreboard players set @a[scores={mb.deaths=2..}] mb.deaths 1
+scoreboard players set total.deaths mb.deaths 0
+scoreboard players operation total.deaths mb.deaths += @a mb.deaths
+execute if score total.deaths mb.deaths >= player.count mb.dummy1 run function mb:boss/king_slime/technical/fail
 
 # Crown model rotation lock
 data modify entity @e[type=minecraft:armor_stand,tag=mb.king_slime.crown,limit=1] Rotation set from entity @e[type=minecraft:slime,tag=mb.king_slime,limit=1] Rotation

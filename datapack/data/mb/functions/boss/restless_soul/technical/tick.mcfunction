@@ -9,10 +9,10 @@ execute store result bossbar mb:restlesssoul value run scoreboard players get re
 
 scoreboard players set player.count mb.dummy1 0
 execute as @a run scoreboard players add player.count mb.dummy1 1
-scoreboard players set @a[scores={MB.deaths=2..}] MB.deaths 1
-scoreboard players set total.deaths MB.deaths 0
-scoreboard players operation total.deaths MB.deaths += @a MB.deaths
-execute if score total.deaths MB.deaths >= player.count mb.dummy1 run function mb:boss/restless_soul/technical/fail
+scoreboard players set @a[scores={mb.deaths=2..}] mb.deaths 1
+scoreboard players set total.deaths mb.deaths 0
+scoreboard players operation total.deaths mb.deaths += @a mb.deaths
+execute if score total.deaths mb.deaths >= player.count mb.dummy1 run function mb:boss/restless_soul/technical/fail
 
 # Model
 execute as @e[type=wandering_trader,tag=mb.restless_soul] at @s run function mb:boss/restless_soul/technical/model/tick

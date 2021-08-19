@@ -3,7 +3,7 @@
 ############################################################
 
 # Scoreboard reset
-scoreboard players set @s MB.coas 0
+scoreboard players set @s mb.coas 0
 
 
 

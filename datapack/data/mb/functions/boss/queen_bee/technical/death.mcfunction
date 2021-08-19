@@ -10,8 +10,8 @@ playsound mb:entity.boss.death master @a ~ ~ ~ 1 1 1
 
 execute as @a[scores={mb.speedrunTimer=1}] run tellraw @s [{"translate":"chat.mb.boss.timer","color":"white","bold":true},{"text":" "},{"translate":"chat.mb.queen_bee","color":"yellow"},{"text":": ","color":"white"},{"score":{"name":"seconds","objective":"MB.timer"},"color":"yellow"},{"text":".","color":"yellow"},{"score":{"name":"miliseconds","objective":"MB.timer"},"color":"yellow"},{"text":"s","color":"yellow"}]
 
-execute as @a[scores={MB.difficulty=0}] run advancement grant @s only mb:minecraft/sting_operation
-execute as @a[scores={MB.difficulty=1}] run advancement grant @s only mb:minecraft/buzzkill
+execute as @a[scores={mb.difficulty=0}] run advancement grant @s only mb:minecraft/sting_operation
+execute as @a[scores={mb.difficulty=1}] run advancement grant @s only mb:minecraft/buzzkill
 execute as @a[advancements={mb:technical/player_hurt=false}] run advancement grant @s only mb:minecraft/flawless_queen_bee
 
 tag @a[advancements={mb:technical/boss/queen_bee/hurt_queen_bee=true}] add mb.queen_bee.player_attacked

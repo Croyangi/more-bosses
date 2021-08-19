@@ -9,10 +9,10 @@ execute store result bossbar mb:impostor value run scoreboard players get impost
 
 scoreboard players set player.count mb.dummy1 0
 execute as @a run scoreboard players add player.count mb.dummy1 1
-scoreboard players set @a[scores={MB.deaths=2..}] MB.deaths 1
-scoreboard players set total.deaths MB.deaths 0
-scoreboard players operation total.deaths MB.deaths += @a MB.deaths
-execute if score total.deaths MB.deaths = player.count mb.dummy1 run function mb:boss/impostor/technical/fail
+scoreboard players set @a[scores={mb.deaths=2..}] mb.deaths 1
+scoreboard players set total.deaths mb.deaths 0
+scoreboard players operation total.deaths mb.deaths += @a mb.deaths
+execute if score total.deaths mb.deaths = player.count mb.dummy1 run function mb:boss/impostor/technical/fail
 
 # HurtTime
 execute as @e[type=husk,tag=mb.impostor,nbt={HurtTime:10s}] at @s run function mb:boss/impostor/technical/model/hurt

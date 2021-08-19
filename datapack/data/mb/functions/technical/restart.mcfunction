@@ -10,4 +10,4 @@ execute as @a[tag=mb.queen_bee.active] unless score player.count mb.dummy1 match
 execute as @a[tag=mb.restless_soul.active] unless score player.count mb.dummy1 matches 2.. run function mb:boss/restless_soul/technical/fail
 execute as @a[tag=mb.impostor.active] unless score player.count mb.dummy1 matches 2.. run function mb:boss/impostor/technical/fail
 
-scoreboard players set @s MB.join.world 0
+scoreboard players set @s mb.join.world 0

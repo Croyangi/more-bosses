@@ -10,8 +10,8 @@ playsound mb:entity.boss.death master @a ~ ~ ~ 1 1 1
 
 execute as @a[scores={mb.speedrunTimer=1}] run tellraw @s [{"translate":"chat.mb.boss.timer","color":"white","bold":true},{"text":" "},{"translate":"chat.mb.restless_soul","color":"dark_purple"},{"text":": ","color":"white"},{"score":{"name":"seconds","objective":"MB.timer"},"color":"yellow"},{"text":".","color":"yellow"},{"score":{"name":"miliseconds","objective":"MB.timer"},"color":"yellow"},{"text":"s","color":"yellow"}]
 
-execute as @a[scores={MB.difficulty=0}] run advancement grant @s only mb:minecraft/free_the_souls
-execute as @a[scores={MB.difficulty=1}] run advancement grant @s only mb:minecraft/etherealness
+execute as @a[scores={mb.difficulty=0}] run advancement grant @s only mb:minecraft/free_the_souls
+execute as @a[scores={mb.difficulty=1}] run advancement grant @s only mb:minecraft/etherealness
 execute as @a[advancements={mb:technical/player_hurt=false}] run advancement grant @s only mb:minecraft/flawless_restless_soul
 
 tag @a[advancements={mb:technical/boss/restless_soul/hurt_restless_soul=true}] add mb.restless_soul.player_attacked

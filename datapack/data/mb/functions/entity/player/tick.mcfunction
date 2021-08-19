@@ -3,10 +3,10 @@
 ############################################################
 
 # Trigger settings menu
-execute as @s[scores={MB.settings=1..}] run function mb:settings/trigger
+execute as @s[scores={mb.settings=1..}] run function mb:settings/trigger
 
 # Reschedule when joining the world
-execute as @s[scores={MB.join.world=1..}] run function mb:technical/restart
+execute as @s[scores={mb.join.world=1..}] run function mb:technical/restart
 
 # Holding anything
 execute as @s[predicate=mb:holding_anything] run function mb:entity/player/holding_item
